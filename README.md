@@ -14,7 +14,6 @@ An end-to-end analytics platform that monitors enterprise software license utili
 
 ## Dashboard Preview
 
-> *(Add your Power BI screenshot here)*
 
 ![Dashboard Overview](outputs/dashboard_overview.png)
 
@@ -28,7 +27,7 @@ An end-to-end analytics platform that monitors enterprise software license utili
 | Portfolio Cost | $112M |
 | Avg Utilization | ~38% |
 | At-Risk Renewals (Critical/Expired) | 181 |
-| Potential Annual Savings | $112M in potential savings|
+| Potential Annual Savings | $112M |
 | Over-Licensed Tools | 275 |
 
 ---
