@@ -25,11 +25,11 @@ An end-to-end analytics platform that monitors enterprise software license utili
 | KPI | Value |
 |-----|-------|
 | Total Licenses Monitored | 520 |
-| Portfolio Cost | $XX.XM |
+| Portfolio Cost | $112M |
 | Avg Utilization | ~38% |
-| At-Risk Renewals (Critical/Expired) | XX |
-| Potential Annual Savings | $XXX,XXX |
-| Over-Licensed Tools | XXX |
+| At-Risk Renewals (Critical/Expired) | 181 |
+| Potential Annual Savings | $112M in potential savings|
+| Over-Licensed Tools | 275 |
 
 ---
 
@@ -104,8 +104,8 @@ python etl_pipeline.py
 
 ## Business Impact (Simulated)
 
-- Flagged **XX licenses** expiring within 30 days, enabling proactive renewal planning
-- Identified **$XXX,XXX** in potential savings from over-licensed seat reduction
+- Flagged **181 licenses** expiring within 30 days, enabling proactive renewal planning
+- Identified **$112M** in potential savings from over-licensed seat reduction
 - Reduced manual tracking effort through automated ETL and scheduled reporting
 - Delivered a single dashboard replacing 3 separate spreadsheet-based reports
 
