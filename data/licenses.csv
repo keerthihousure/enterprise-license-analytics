@@ -1,0 +1,521 @@
+license_id,vendor,tool_name,license_type,department,region,total_seats,avg_utilization,peak_utilization,cost_per_seat_usd,total_cost_usd,issue_date,expiry_date,days_to_expiry,renewal_risk,over_licensed,unused_seats,potential_savings
+LIC-0001,Vendor_C,VerifyTool_A,Floating,ASIC Design,Americas,10,49.4,57.9,8000,80000,2024-08-06,2025-08-06,-284,Expired,False,4,32000
+LIC-0002,Vendor_C,FormalChecker,Floating,ASIC Design,APAC,10,37.5,55.1,8000,80000,2024-07-21,2025-07-21,-300,Expired,True,5,40000
+LIC-0003,Vendor_C,FormalChecker,Floating,Verification,EMEA,5,53.0,77.0,12000,60000,2024-12-10,2026-12-10,207,Low,False,1,12000
+LIC-0004,Vendor_B,SimEngine_Pro,Floating,Verification,EMEA,20,23.6,31.0,15000,300000,2024-06-07,2026-06-07,21,Critical,True,14,210000
+LIC-0005,Vendor_A,SchematicCapture,Node-Locked,Mixed-Signal,APAC,20,76.8,83.8,15000,300000,2024-05-23,2026-05-23,6,Critical,False,3,45000
+LIC-0006,Vendor_C,VerifyTool_B,Floating,Analog,APAC,10,17.3,41.6,8000,80000,2025-06-22,2026-06-22,36,High,True,7,56000
+LIC-0007,Vendor_B,WaveformViewer,Node-Locked,DFT,Americas,10,65.3,79.6,12000,120000,2025-05-18,2026-05-18,1,Critical,False,2,24000
+LIC-0008,Vendor_C,VerifyTool_B,Floating,Mixed-Signal,Americas,20,27.1,41.6,30000,600000,2024-07-25,2025-07-25,-296,Expired,True,13,390000
+LIC-0009,Vendor_C,CoverageAnalyzer,Node-Locked,ASIC Design,APAC,15,31.2,46.2,8000,120000,2025-07-14,2027-07-14,423,Low,True,9,72000
+LIC-0010,Vendor_A,SchematicCapture,Floating,DFT,Americas,15,56.2,64.7,30000,450000,2024-07-21,2026-07-21,65,Medium,False,5,150000
+LIC-0011,Vendor_C,FormalChecker,Floating,Mixed-Signal,EMEA,10,72.5,90.2,8000,80000,2025-12-29,2026-12-29,226,Low,False,1,8000
+LIC-0012,Vendor_A,DesignTool_Lite,Floating,Analog,EMEA,20,13.6,28.1,20000,400000,2024-08-23,2026-08-23,98,Low,True,16,320000
+LIC-0013,Vendor_C,VerifyTool_A,Floating,Analog,Americas,25,48.8,72.6,30000,750000,2025-03-04,2026-03-04,-74,Expired,False,11,330000
+LIC-0014,Vendor_B,TimingAnalyzer,Floating,Verification,EMEA,50,40.8,67.7,15000,750000,2024-09-21,2025-09-21,-238,Expired,False,28,420000
+LIC-0015,Vendor_C,VerifyTool_A,Node-Locked,Analog,EMEA,25,19.2,39.4,12000,300000,2025-01-29,2026-01-29,-108,Expired,True,19,228000
+LIC-0016,Vendor_C,VerifyTool_A,Floating,Mixed-Signal,EMEA,5,50.4,78.6,15000,75000,2025-06-15,2026-06-15,29,Critical,False,1,15000
+LIC-0017,Vendor_A,DesignTool_Pro,Floating,ASIC Design,Americas,5,19.8,49.2,25000,125000,2025-10-10,2026-10-10,146,Low,True,3,75000
+LIC-0018,Vendor_C,FormalChecker,Floating,Mixed-Signal,APAC,25,42.9,58.5,12000,300000,2024-08-12,2025-08-12,-278,Expired,False,13,156000
+LIC-0019,Vendor_C,CoverageAnalyzer,Floating,DFT,Americas,20,26.8,54.3,20000,400000,2025-10-15,2026-10-15,151,Low,True,13,260000
+LIC-0020,Vendor_A,DesignTool_Pro,Floating,Physical Design,APAC,10,32.1,51.8,8000,80000,2025-12-05,2026-12-05,202,Low,True,5,40000
+LIC-0021,Vendor_A,DesignTool_Pro,Floating,ASIC Design,EMEA,10,34.7,46.7,20000,200000,2025-07-11,2026-07-11,55,High,True,5,100000
+LIC-0022,Vendor_C,FormalChecker,Node-Locked,Verification,EMEA,10,55.5,62.9,30000,300000,2024-12-01,2026-12-01,198,Low,False,3,90000
+LIC-0023,Vendor_B,TimingAnalyzer,Floating,DFT,Americas,50,20.9,50.5,8000,400000,2025-12-15,2027-12-15,577,Low,True,38,304000
+LIC-0024,Vendor_C,CoverageAnalyzer,Floating,ASIC Design,APAC,25,44.7,60.9,20000,500000,2025-08-12,2027-08-12,452,Low,False,12,240000
+LIC-0025,Vendor_B,SimEngine_Pro,Node-Locked,ASIC Design,EMEA,25,29.8,37.2,30000,750000,2024-08-11,2025-08-11,-279,Expired,True,16,480000
+LIC-0026,Vendor_A,DesignTool_Lite,Floating,Verification,EMEA,10,30.0,56.6,8000,80000,2025-08-31,2027-08-31,471,Low,True,6,48000
+LIC-0027,Vendor_A,SchematicCapture,Floating,Physical Design,EMEA,50,49.3,78.2,25000,1250000,2024-10-05,2025-10-05,-224,Expired,False,24,600000
+LIC-0028,Vendor_A,LayoutEditor,Floating,Verification,APAC,25,28.2,34.7,15000,375000,2025-12-19,2026-12-19,216,Low,True,16,240000
+LIC-0029,Vendor_C,FormalChecker,Floating,Mixed-Signal,Americas,25,29.7,36.7,12000,300000,2025-12-07,2026-12-07,204,Low,True,16,192000
+LIC-0030,Vendor_C,VerifyTool_B,Node-Locked,DFT,APAC,25,40.0,51.2,25000,625000,2026-01-06,2027-01-06,234,Low,False,14,350000
+LIC-0031,Vendor_B,WaveformViewer,Floating,Physical Design,APAC,15,17.3,28.3,20000,300000,2025-10-04,2027-10-04,505,Low,True,11,220000
+LIC-0032,Vendor_B,WaveformViewer,Floating,ASIC Design,APAC,25,30.3,60.2,8000,200000,2024-08-14,2025-08-14,-276,Expired,True,16,128000
+LIC-0033,Vendor_C,CoverageAnalyzer,Node-Locked,Verification,EMEA,10,44.3,58.5,12000,120000,2024-11-24,2026-11-24,191,Low,False,4,48000
+LIC-0034,Vendor_C,VerifyTool_A,Floating,Analog,Americas,50,7.5,15.1,12000,600000,2025-05-21,2026-05-21,4,Critical,True,45,540000
+LIC-0035,Vendor_A,DesignTool_Lite,Floating,Physical Design,EMEA,50,16.2,29.8,30000,1500000,2025-05-21,2027-05-21,369,Low,True,40,1200000
+LIC-0036,Vendor_B,SimEngine_X,Floating,ASIC Design,Americas,15,31.0,37.1,15000,225000,2025-10-05,2027-10-05,506,Low,True,9,135000
+LIC-0037,Vendor_A,SchematicCapture,Floating,Mixed-Signal,Americas,5,46.9,54.7,30000,150000,2025-09-16,2026-09-16,122,Low,False,1,30000
+LIC-0038,Vendor_B,SimEngine_Pro,Floating,DFT,APAC,15,81.3,100.0,8000,120000,2025-02-14,2026-02-14,-92,Expired,False,1,8000
+LIC-0039,Vendor_C,VerifyTool_B,Floating,Analog,APAC,25,27.1,54.2,20000,500000,2024-05-21,2025-05-21,-361,Expired,True,17,340000
+LIC-0040,Vendor_A,DesignTool_Lite,Floating,Verification,EMEA,50,11.4,39.5,20000,1000000,2025-06-06,2027-06-06,385,Low,True,43,860000
+LIC-0041,Vendor_A,DesignTool_Pro,Node-Locked,DFT,APAC,10,10.8,20.8,20000,200000,2025-02-22,2027-02-22,281,Low,True,7,140000
+LIC-0042,Vendor_A,DesignTool_Lite,Floating,ASIC Design,Americas,15,28.0,40.0,8000,120000,2025-05-06,2027-05-06,354,Low,True,9,72000
+LIC-0043,Vendor_C,FormalChecker,Floating,Analog,Americas,5,72.5,80.4,15000,75000,2025-08-17,2027-08-17,457,Low,False,0,0
+LIC-0044,Vendor_A,DesignTool_Pro,Floating,Mixed-Signal,EMEA,15,10.1,26.0,25000,375000,2025-10-20,2027-10-20,521,Low,True,12,300000
+LIC-0045,Vendor_C,VerifyTool_B,Node-Locked,Physical Design,APAC,5,32.8,50.8,25000,125000,2025-07-29,2027-07-29,438,Low,True,2,50000
+LIC-0046,Vendor_B,SimEngine_X,Floating,Analog,EMEA,50,43.4,69.6,30000,1500000,2025-04-14,2027-04-14,332,Low,False,27,810000
+LIC-0047,Vendor_C,FormalChecker,Floating,Physical Design,EMEA,25,23.4,31.6,20000,500000,2025-01-23,2026-01-23,-114,Expired,True,18,360000
+LIC-0048,Vendor_C,CoverageAnalyzer,Node-Locked,DFT,Americas,15,55.5,67.7,20000,300000,2024-07-02,2026-07-02,46,High,False,5,100000
+LIC-0049,Vendor_B,TimingAnalyzer,Floating,DFT,Americas,20,60.7,85.5,30000,600000,2025-08-26,2026-08-26,101,Low,False,6,180000
+LIC-0050,Vendor_B,WaveformViewer,Floating,ASIC Design,APAC,10,14.3,39.5,12000,120000,2026-01-21,2027-01-21,249,Low,True,7,84000
+LIC-0051,Vendor_A,SchematicCapture,Floating,Mixed-Signal,APAC,50,48.8,68.2,30000,1500000,2025-01-18,2027-01-18,246,Low,False,24,720000
+LIC-0052,Vendor_B,SimEngine_Pro,Floating,Verification,Americas,5,45.9,70.4,12000,60000,2025-08-19,2027-08-19,459,Low,False,1,12000
+LIC-0053,Vendor_A,DesignTool_Lite,Floating,ASIC Design,EMEA,20,32.5,54.2,25000,500000,2024-06-16,2026-06-16,30,Critical,True,12,300000
+LIC-0054,Vendor_B,TimingAnalyzer,Node-Locked,Mixed-Signal,EMEA,50,22.5,49.0,20000,1000000,2025-05-26,2026-05-26,9,Critical,True,37,740000
+LIC-0055,Vendor_C,CoverageAnalyzer,Floating,Mixed-Signal,EMEA,15,63.6,79.6,30000,450000,2025-04-29,2026-04-29,-18,Expired,False,4,120000
+LIC-0056,Vendor_B,WaveformViewer,Floating,Physical Design,Americas,10,15.2,26.0,30000,300000,2025-09-12,2026-09-12,118,Low,True,7,210000
+LIC-0057,Vendor_A,SchematicCapture,Floating,DFT,EMEA,20,25.8,32.4,20000,400000,2025-01-13,2026-01-13,-124,Expired,True,13,260000
+LIC-0058,Vendor_C,FormalChecker,Node-Locked,DFT,APAC,15,48.0,71.8,20000,300000,2024-08-13,2025-08-13,-277,Expired,False,6,120000
+LIC-0059,Vendor_B,SimEngine_Pro,Floating,Physical Design,EMEA,20,47.5,60.9,30000,600000,2024-12-28,2025-12-28,-140,Expired,False,9,270000
+LIC-0060,Vendor_B,SimEngine_Pro,Floating,Mixed-Signal,Americas,20,63.9,83.7,30000,600000,2026-01-19,2027-01-19,247,Low,False,6,180000
+LIC-0061,Vendor_C,FormalChecker,Floating,Verification,EMEA,15,20.8,35.3,12000,180000,2024-11-07,2026-11-07,174,Low,True,10,120000
+LIC-0062,Vendor_B,TimingAnalyzer,Floating,Physical Design,EMEA,5,59.2,76.0,30000,150000,2024-08-12,2025-08-12,-278,Expired,False,1,30000
+LIC-0063,Vendor_B,SimEngine_Pro,Node-Locked,Analog,APAC,50,42.2,48.2,8000,400000,2025-06-07,2026-06-07,21,Critical,False,27,216000
+LIC-0064,Vendor_A,DesignTool_Lite,Floating,Verification,APAC,5,40.3,59.4,12000,60000,2024-10-27,2026-10-27,163,Low,False,1,12000
+LIC-0065,Vendor_B,SimEngine_Pro,Node-Locked,Mixed-Signal,Americas,50,34.8,42.7,12000,600000,2025-04-03,2026-04-03,-44,Expired,True,31,372000
+LIC-0066,Vendor_C,VerifyTool_A,Floating,Physical Design,Americas,20,62.5,77.4,30000,600000,2025-07-27,2026-07-27,71,Medium,False,6,180000
+LIC-0067,Vendor_C,VerifyTool_B,Node-Locked,ASIC Design,Americas,50,13.9,33.9,8000,400000,2024-07-16,2025-07-16,-305,Expired,True,42,336000
+LIC-0068,Vendor_B,TimingAnalyzer,Floating,Analog,EMEA,50,10.5,24.0,20000,1000000,2024-10-02,2025-10-02,-227,Expired,True,43,860000
+LIC-0069,Vendor_B,WaveformViewer,Node-Locked,Analog,EMEA,20,67.8,77.2,25000,500000,2025-05-15,2027-05-15,363,Low,False,5,125000
+LIC-0070,Vendor_B,TimingAnalyzer,Floating,Analog,Americas,10,49.7,75.5,8000,80000,2025-05-06,2027-05-06,354,Low,False,4,32000
+LIC-0071,Vendor_A,SchematicCapture,Floating,Mixed-Signal,Americas,15,64.0,69.7,15000,225000,2025-08-13,2027-08-13,453,Low,False,4,60000
+LIC-0072,Vendor_A,LayoutEditor,Floating,Physical Design,EMEA,25,55.0,77.5,15000,375000,2024-07-26,2025-07-26,-295,Expired,False,10,150000
+LIC-0073,Vendor_C,VerifyTool_B,Node-Locked,ASIC Design,APAC,20,29.8,48.7,12000,240000,2024-10-16,2026-10-16,152,Low,True,13,156000
+LIC-0074,Vendor_B,SimEngine_X,Floating,ASIC Design,EMEA,50,60.9,72.0,30000,1500000,2024-06-30,2026-06-30,44,High,False,18,540000
+LIC-0075,Vendor_B,WaveformViewer,Floating,DFT,Americas,15,46.7,69.3,15000,225000,2025-04-08,2027-04-08,326,Low,False,6,90000
+LIC-0076,Vendor_A,DesignTool_Pro,Floating,Analog,APAC,50,28.7,47.1,30000,1500000,2025-08-10,2026-08-10,85,Medium,True,34,1020000
+LIC-0077,Vendor_A,SchematicCapture,Floating,Physical Design,Americas,25,38.9,58.8,8000,200000,2025-08-01,2027-08-01,441,Low,True,14,112000
+LIC-0078,Vendor_A,LayoutEditor,Floating,Verification,EMEA,25,20.8,29.0,8000,200000,2025-12-22,2027-12-22,584,Low,True,18,144000
+LIC-0079,Vendor_C,VerifyTool_B,Floating,Analog,EMEA,5,96.5,100.0,20000,100000,2024-10-13,2026-10-13,149,Low,False,0,0
+LIC-0080,Vendor_B,SimEngine_Pro,Node-Locked,ASIC Design,EMEA,20,9.5,17.4,8000,160000,2025-01-01,2027-01-01,229,Low,True,17,136000
+LIC-0081,Vendor_A,DesignTool_Pro,Node-Locked,Verification,APAC,15,6.7,13.8,12000,180000,2025-10-17,2027-10-17,518,Low,True,12,144000
+LIC-0082,Vendor_C,VerifyTool_B,Floating,Mixed-Signal,EMEA,20,23.3,35.7,25000,500000,2024-12-03,2026-12-03,200,Low,True,14,350000
+LIC-0083,Vendor_C,VerifyTool_A,Floating,Mixed-Signal,Americas,10,45.7,66.3,15000,150000,2025-11-24,2026-11-24,191,Low,False,4,60000
+LIC-0084,Vendor_A,DesignTool_Lite,Floating,Mixed-Signal,APAC,20,16.4,32.7,25000,500000,2024-10-22,2026-10-22,158,Low,True,15,375000
+LIC-0085,Vendor_A,DesignTool_Lite,Floating,Physical Design,Americas,20,17.8,24.6,12000,240000,2025-05-21,2026-05-21,4,Critical,True,15,180000
+LIC-0086,Vendor_B,SimEngine_X,Floating,Mixed-Signal,APAC,15,44.7,70.4,8000,120000,2025-12-16,2026-12-16,213,Low,False,7,56000
+LIC-0087,Vendor_B,WaveformViewer,Floating,DFT,APAC,15,35.2,57.7,15000,225000,2024-09-21,2026-09-21,127,Low,True,8,120000
+LIC-0088,Vendor_B,SimEngine_X,Node-Locked,Mixed-Signal,APAC,50,40.6,53.7,15000,750000,2026-01-20,2027-01-20,248,Low,False,28,420000
+LIC-0089,Vendor_A,DesignTool_Pro,Floating,Analog,EMEA,10,57.8,74.6,30000,300000,2024-11-20,2026-11-20,187,Low,False,3,90000
+LIC-0090,Vendor_A,SchematicCapture,Node-Locked,Analog,EMEA,20,28.4,42.1,15000,300000,2025-03-24,2026-03-24,-54,Expired,True,13,195000
+LIC-0091,Vendor_A,LayoutEditor,Floating,DFT,Americas,50,33.2,61.8,25000,1250000,2026-01-09,2028-01-09,602,Low,True,32,800000
+LIC-0092,Vendor_A,LayoutEditor,Floating,Physical Design,EMEA,20,25.0,51.6,8000,160000,2024-08-09,2026-08-09,84,Medium,True,14,112000
+LIC-0093,Vendor_B,SimEngine_X,Floating,Verification,Americas,20,35.3,55.9,8000,160000,2025-07-22,2027-07-22,431,Low,True,11,88000
+LIC-0094,Vendor_C,VerifyTool_B,Node-Locked,Physical Design,EMEA,20,34.4,42.4,30000,600000,2024-06-02,2025-06-02,-349,Expired,True,12,360000
+LIC-0095,Vendor_C,VerifyTool_B,Floating,Physical Design,Americas,20,49.4,56.7,8000,160000,2024-10-31,2025-10-31,-198,Expired,False,9,72000
+LIC-0096,Vendor_C,VerifyTool_B,Floating,DFT,Americas,50,54.7,66.5,20000,1000000,2024-10-20,2025-10-20,-209,Expired,False,21,420000
+LIC-0097,Vendor_B,SimEngine_Pro,Node-Locked,DFT,APAC,25,52.4,76.1,12000,300000,2025-12-06,2027-12-06,568,Low,False,10,120000
+LIC-0098,Vendor_B,WaveformViewer,Node-Locked,Mixed-Signal,EMEA,15,14.1,37.3,25000,375000,2024-07-02,2026-07-02,46,High,True,11,275000
+LIC-0099,Vendor_A,SchematicCapture,Floating,Mixed-Signal,EMEA,25,30.4,54.5,20000,500000,2024-11-06,2026-11-06,173,Low,True,16,320000
+LIC-0100,Vendor_A,DesignTool_Lite,Floating,Mixed-Signal,EMEA,20,25.2,31.3,30000,600000,2024-10-19,2026-10-19,155,Low,True,13,390000
+LIC-0101,Vendor_B,SimEngine_Pro,Floating,DFT,APAC,25,35.7,49.0,8000,200000,2024-11-22,2025-11-22,-176,Expired,True,15,120000
+LIC-0102,Vendor_C,FormalChecker,Floating,ASIC Design,Americas,50,68.0,97.2,8000,400000,2024-10-23,2026-10-23,159,Low,False,14,112000
+LIC-0103,Vendor_B,TimingAnalyzer,Node-Locked,Analog,APAC,50,20.6,47.1,20000,1000000,2025-03-28,2027-03-28,315,Low,True,38,760000
+LIC-0104,Vendor_C,VerifyTool_A,Floating,Mixed-Signal,APAC,50,24.5,52.5,12000,600000,2025-11-15,2027-11-15,547,Low,True,36,432000
+LIC-0105,Vendor_A,DesignTool_Pro,Floating,DFT,APAC,5,35.8,41.9,8000,40000,2025-04-21,2027-04-21,339,Low,True,2,16000
+LIC-0106,Vendor_B,TimingAnalyzer,Floating,Verification,APAC,25,29.0,51.0,12000,300000,2025-08-25,2026-08-25,100,Low,True,16,192000
+LIC-0107,Vendor_A,SchematicCapture,Floating,Mixed-Signal,Americas,25,24.5,33.1,20000,500000,2025-05-31,2027-05-31,379,Low,True,17,340000
+LIC-0108,Vendor_B,SimEngine_X,Floating,DFT,EMEA,10,42.4,49.2,15000,150000,2024-06-24,2026-06-24,38,High,False,4,60000
+LIC-0109,Vendor_C,FormalChecker,Floating,Analog,EMEA,15,38.3,48.3,20000,300000,2024-10-09,2025-10-09,-220,Expired,True,8,160000
+LIC-0110,Vendor_A,SchematicCapture,Floating,Mixed-Signal,EMEA,50,23.1,35.5,30000,1500000,2025-01-06,2027-01-06,234,Low,True,37,1110000
+LIC-0111,Vendor_A,DesignTool_Pro,Floating,Mixed-Signal,Americas,15,9.6,34.0,12000,180000,2024-06-04,2026-06-04,18,Critical,True,12,144000
+LIC-0112,Vendor_A,DesignTool_Lite,Floating,Mixed-Signal,EMEA,50,63.0,87.2,30000,1500000,2025-09-28,2026-09-28,134,Low,False,17,510000
+LIC-0113,Vendor_C,VerifyTool_A,Floating,Physical Design,EMEA,15,24.8,48.1,8000,120000,2025-04-19,2027-04-19,337,Low,True,10,80000
+LIC-0114,Vendor_C,FormalChecker,Floating,Verification,APAC,25,79.0,100.0,15000,375000,2024-08-21,2026-08-21,96,Low,False,4,60000
+LIC-0115,Vendor_A,LayoutEditor,Node-Locked,DFT,EMEA,15,69.7,94.8,20000,300000,2025-11-30,2026-11-30,197,Low,False,3,60000
+LIC-0116,Vendor_A,SchematicCapture,Floating,Mixed-Signal,EMEA,20,51.1,56.4,25000,500000,2025-10-12,2027-10-12,513,Low,False,8,200000
+LIC-0117,Vendor_B,WaveformViewer,Node-Locked,Mixed-Signal,EMEA,15,16.9,24.6,12000,180000,2024-10-21,2025-10-21,-208,Expired,True,11,132000
+LIC-0118,Vendor_C,CoverageAnalyzer,Floating,Mixed-Signal,APAC,50,22.5,48.1,30000,1500000,2025-04-12,2027-04-12,330,Low,True,37,1110000
+LIC-0119,Vendor_A,DesignTool_Lite,Floating,ASIC Design,APAC,20,37.9,45.8,12000,240000,2024-08-14,2025-08-14,-276,Expired,True,11,132000
+LIC-0120,Vendor_B,TimingAnalyzer,Node-Locked,Physical Design,Americas,50,23.2,51.8,20000,1000000,2024-06-24,2025-06-24,-327,Expired,True,37,740000
+LIC-0121,Vendor_B,SimEngine_X,Floating,DFT,Americas,15,33.7,39.5,15000,225000,2025-07-08,2027-07-08,417,Low,True,8,120000
+LIC-0122,Vendor_B,SimEngine_Pro,Node-Locked,Physical Design,APAC,15,6.4,25.0,30000,450000,2025-02-13,2026-02-13,-93,Expired,True,13,390000
+LIC-0123,Vendor_B,WaveformViewer,Node-Locked,Verification,APAC,20,61.5,68.8,12000,240000,2024-06-14,2025-06-14,-337,Expired,False,6,72000
+LIC-0124,Vendor_A,LayoutEditor,Node-Locked,Verification,APAC,10,47.3,54.0,25000,250000,2025-07-18,2026-07-18,62,Medium,False,4,100000
+LIC-0125,Vendor_A,LayoutEditor,Floating,Verification,Americas,10,32.2,61.9,25000,250000,2025-06-04,2026-06-04,18,Critical,True,5,125000
+LIC-0126,Vendor_A,DesignTool_Pro,Floating,Verification,APAC,10,83.0,100.0,8000,80000,2025-08-21,2027-08-21,461,Low,False,0,0
+LIC-0127,Vendor_A,DesignTool_Lite,Floating,Analog,EMEA,50,25.0,31.6,20000,1000000,2025-02-10,2026-02-10,-96,Expired,True,36,720000
+LIC-0128,Vendor_B,SimEngine_Pro,Node-Locked,Mixed-Signal,APAC,50,82.9,100.0,20000,1000000,2026-01-15,2027-01-15,243,Low,False,7,140000
+LIC-0129,Vendor_B,TimingAnalyzer,Floating,DFT,Americas,50,10.2,37.9,8000,400000,2025-11-25,2027-11-25,557,Low,True,43,344000
+LIC-0130,Vendor_C,VerifyTool_B,Floating,ASIC Design,APAC,50,6.3,25.9,30000,1500000,2025-03-20,2027-03-20,307,Low,True,45,1350000
+LIC-0131,Vendor_C,CoverageAnalyzer,Floating,DFT,Americas,5,60.8,85.6,8000,40000,2024-07-31,2025-07-31,-290,Expired,False,0,0
+LIC-0132,Vendor_B,TimingAnalyzer,Floating,Verification,EMEA,20,25.9,40.9,30000,600000,2025-11-10,2027-11-10,542,Low,True,13,390000
+LIC-0133,Vendor_B,WaveformViewer,Floating,Analog,EMEA,10,40.6,62.8,20000,200000,2025-12-09,2026-12-09,206,Low,False,4,80000
+LIC-0134,Vendor_A,DesignTool_Pro,Node-Locked,DFT,APAC,15,53.9,79.2,25000,375000,2025-12-16,2027-12-16,578,Low,False,5,125000
+LIC-0135,Vendor_C,VerifyTool_A,Node-Locked,DFT,EMEA,20,67.7,94.4,30000,600000,2025-12-25,2027-12-25,587,Low,False,5,150000
+LIC-0136,Vendor_C,CoverageAnalyzer,Floating,Physical Design,APAC,10,23.2,32.1,20000,200000,2025-07-01,2026-07-01,45,High,True,6,120000
+LIC-0137,Vendor_B,WaveformViewer,Floating,ASIC Design,EMEA,20,39.7,65.8,25000,500000,2024-05-28,2025-05-28,-354,Expired,True,11,275000
+LIC-0138,Vendor_C,CoverageAnalyzer,Floating,ASIC Design,APAC,15,36.9,64.9,15000,225000,2026-02-09,2027-02-09,268,Low,True,8,120000
+LIC-0139,Vendor_A,SchematicCapture,Node-Locked,ASIC Design,APAC,5,6.3,13.6,25000,125000,2025-07-10,2027-07-10,419,Low,True,3,75000
+LIC-0140,Vendor_B,TimingAnalyzer,Floating,Physical Design,APAC,50,44.1,57.2,25000,1250000,2024-06-15,2025-06-15,-336,Expired,False,26,650000
+LIC-0141,Vendor_A,DesignTool_Lite,Floating,Verification,Americas,5,52.0,63.8,30000,150000,2024-12-08,2026-12-08,205,Low,False,1,30000
+LIC-0142,Vendor_C,FormalChecker,Floating,DFT,EMEA,25,47.7,55.5,20000,500000,2025-10-25,2027-10-25,526,Low,False,12,240000
+LIC-0143,Vendor_C,FormalChecker,Floating,Mixed-Signal,Americas,10,43.3,58.2,25000,250000,2025-12-21,2026-12-21,218,Low,False,4,100000
+LIC-0144,Vendor_A,LayoutEditor,Node-Locked,Verification,APAC,15,53.0,66.2,8000,120000,2024-09-24,2026-09-24,130,Low,False,6,48000
+LIC-0145,Vendor_A,DesignTool_Lite,Node-Locked,DFT,Americas,25,54.2,73.2,30000,750000,2025-02-18,2026-02-18,-88,Expired,False,10,300000
+LIC-0146,Vendor_B,SimEngine_X,Floating,DFT,APAC,5,21.6,48.2,25000,125000,2024-12-03,2026-12-03,200,Low,True,2,50000
+LIC-0147,Vendor_C,FormalChecker,Floating,Physical Design,APAC,15,76.5,85.8,25000,375000,2024-11-01,2026-11-01,168,Low,False,2,50000
+LIC-0148,Vendor_A,SchematicCapture,Floating,ASIC Design,APAC,20,59.0,77.1,20000,400000,2025-04-04,2027-04-04,322,Low,False,7,140000
+LIC-0149,Vendor_A,LayoutEditor,Floating,Verification,APAC,5,28.8,47.1,12000,60000,2025-02-23,2027-02-23,282,Low,True,2,24000
+LIC-0150,Vendor_C,VerifyTool_B,Floating,Verification,APAC,10,26.0,35.3,12000,120000,2025-11-30,2026-11-30,197,Low,True,6,72000
+LIC-0151,Vendor_C,FormalChecker,Node-Locked,DFT,Americas,20,29.0,51.0,25000,500000,2024-05-17,2026-05-17,0,Critical,True,13,325000
+LIC-0152,Vendor_C,CoverageAnalyzer,Floating,Verification,EMEA,20,50.1,70.9,15000,300000,2024-06-20,2025-06-20,-331,Expired,False,8,120000
+LIC-0153,Vendor_B,SimEngine_X,Floating,Physical Design,EMEA,5,62.2,76.4,15000,75000,2025-11-29,2026-11-29,196,Low,False,0,0
+LIC-0154,Vendor_C,FormalChecker,Floating,DFT,Americas,50,76.0,100.0,20000,1000000,2024-07-10,2025-07-10,-311,Expired,False,11,220000
+LIC-0155,Vendor_B,TimingAnalyzer,Node-Locked,Mixed-Signal,APAC,20,31.0,38.6,15000,300000,2025-11-21,2026-11-21,188,Low,True,12,180000
+LIC-0156,Vendor_A,DesignTool_Lite,Node-Locked,Analog,EMEA,25,15.2,33.3,12000,300000,2025-02-08,2027-02-08,267,Low,True,20,240000
+LIC-0157,Vendor_B,TimingAnalyzer,Floating,DFT,EMEA,5,27.0,51.7,30000,150000,2025-03-10,2026-03-10,-68,Expired,True,2,60000
+LIC-0158,Vendor_B,SimEngine_X,Floating,Mixed-Signal,Americas,15,22.1,45.2,30000,450000,2024-06-08,2025-06-08,-343,Expired,True,10,300000
+LIC-0159,Vendor_B,SimEngine_X,Floating,Mixed-Signal,Americas,15,53.6,66.4,30000,450000,2025-01-10,2026-01-10,-127,Expired,False,5,150000
+LIC-0160,Vendor_C,VerifyTool_A,Floating,Physical Design,Americas,15,29.9,55.2,30000,450000,2024-08-25,2025-08-25,-265,Expired,True,9,270000
+LIC-0161,Vendor_C,FormalChecker,Floating,Mixed-Signal,EMEA,15,26.3,35.8,12000,180000,2025-03-03,2027-03-03,290,Low,True,10,120000
+LIC-0162,Vendor_A,DesignTool_Lite,Floating,Verification,APAC,5,31.2,48.9,25000,125000,2024-08-25,2025-08-25,-265,Expired,True,2,50000
+LIC-0163,Vendor_C,CoverageAnalyzer,Floating,Mixed-Signal,APAC,10,26.1,35.2,30000,300000,2024-05-17,2025-05-17,-365,Expired,True,6,180000
+LIC-0164,Vendor_C,FormalChecker,Floating,ASIC Design,EMEA,50,21.3,32.2,20000,1000000,2024-05-31,2026-05-31,14,Critical,True,38,760000
+LIC-0165,Vendor_C,FormalChecker,Floating,Verification,Americas,20,70.7,98.3,12000,240000,2025-02-04,2027-02-04,263,Low,False,4,48000
+LIC-0166,Vendor_B,WaveformViewer,Floating,DFT,Americas,10,20.0,45.4,25000,250000,2025-09-27,2027-09-27,498,Low,True,7,175000
+LIC-0167,Vendor_A,SchematicCapture,Node-Locked,Physical Design,Americas,50,53.5,79.6,8000,400000,2025-04-30,2026-04-30,-17,Expired,False,22,176000
+LIC-0168,Vendor_A,LayoutEditor,Floating,DFT,Americas,20,12.7,20.0,12000,240000,2024-11-11,2026-11-11,178,Low,True,16,192000
+LIC-0169,Vendor_A,SchematicCapture,Floating,ASIC Design,EMEA,10,48.5,63.2,8000,80000,2025-01-28,2026-01-28,-109,Expired,False,4,32000
+LIC-0170,Vendor_A,LayoutEditor,Floating,ASIC Design,Americas,10,77.0,85.4,15000,150000,2024-10-20,2025-10-20,-209,Expired,False,1,15000
+LIC-0171,Vendor_C,FormalChecker,Floating,DFT,Americas,5,22.2,27.7,12000,60000,2025-09-15,2027-09-15,486,Low,True,2,24000
+LIC-0172,Vendor_A,LayoutEditor,Floating,Verification,EMEA,10,19.1,34.6,25000,250000,2024-11-04,2025-11-04,-194,Expired,True,7,175000
+LIC-0173,Vendor_A,SchematicCapture,Floating,Mixed-Signal,Americas,25,32.7,52.1,30000,750000,2025-09-21,2027-09-21,492,Low,True,15,450000
+LIC-0174,Vendor_B,SimEngine_X,Floating,Mixed-Signal,EMEA,20,14.5,24.2,30000,600000,2025-11-20,2027-11-20,552,Low,True,16,480000
+LIC-0175,Vendor_A,DesignTool_Pro,Floating,DFT,EMEA,20,17.8,47.3,15000,300000,2026-01-30,2028-01-30,623,Low,True,15,225000
+LIC-0176,Vendor_A,LayoutEditor,Floating,Verification,Americas,5,88.8,100.0,30000,150000,2025-03-12,2026-03-12,-66,Expired,False,0,0
+LIC-0177,Vendor_A,LayoutEditor,Node-Locked,Mixed-Signal,EMEA,10,58.5,84.3,30000,300000,2024-10-28,2026-10-28,164,Low,False,3,90000
+LIC-0178,Vendor_C,VerifyTool_B,Node-Locked,Verification,APAC,20,17.3,23.2,12000,240000,2026-01-02,2027-01-02,230,Low,True,15,180000
+LIC-0179,Vendor_A,LayoutEditor,Floating,Physical Design,Americas,25,63.9,80.7,8000,200000,2025-08-04,2027-08-04,444,Low,False,8,64000
+LIC-0180,Vendor_B,SimEngine_X,Floating,Analog,EMEA,15,27.5,43.4,20000,300000,2024-11-22,2026-11-22,189,Low,True,9,180000
+LIC-0181,Vendor_B,SimEngine_Pro,Floating,DFT,Americas,25,44.6,56.3,8000,200000,2024-12-08,2025-12-08,-160,Expired,False,12,96000
+LIC-0182,Vendor_B,SimEngine_Pro,Floating,Mixed-Signal,EMEA,5,35.4,48.6,15000,75000,2025-04-08,2027-04-08,326,Low,True,2,30000
+LIC-0183,Vendor_C,FormalChecker,Floating,Verification,Americas,20,59.3,65.4,15000,300000,2024-05-27,2026-05-27,10,Critical,False,7,105000
+LIC-0184,Vendor_B,SimEngine_X,Floating,ASIC Design,Americas,15,46.9,64.7,30000,450000,2025-09-05,2026-09-05,111,Low,False,6,180000
+LIC-0185,Vendor_A,SchematicCapture,Floating,ASIC Design,APAC,50,22.7,36.9,20000,1000000,2024-07-15,2025-07-15,-306,Expired,True,37,740000
+LIC-0186,Vendor_C,VerifyTool_B,Node-Locked,Analog,EMEA,15,17.8,33.9,8000,120000,2024-07-08,2025-07-08,-313,Expired,True,11,88000
+LIC-0187,Vendor_C,CoverageAnalyzer,Floating,DFT,EMEA,10,12.9,41.9,8000,80000,2025-08-09,2027-08-09,449,Low,True,7,56000
+LIC-0188,Vendor_C,FormalChecker,Floating,Mixed-Signal,APAC,15,52.0,74.6,12000,180000,2024-05-30,2026-05-30,13,Critical,False,6,72000
+LIC-0189,Vendor_C,FormalChecker,Floating,Verification,APAC,5,12.4,28.7,30000,150000,2024-11-17,2025-11-17,-181,Expired,True,3,90000
+LIC-0190,Vendor_C,CoverageAnalyzer,Node-Locked,Analog,EMEA,25,36.7,55.3,15000,375000,2025-09-07,2026-09-07,113,Low,True,14,210000
+LIC-0191,Vendor_B,SimEngine_Pro,Node-Locked,ASIC Design,APAC,10,36.3,61.1,8000,80000,2025-02-11,2027-02-11,270,Low,True,5,40000
+LIC-0192,Vendor_B,SimEngine_Pro,Floating,Mixed-Signal,APAC,20,31.8,61.8,30000,600000,2024-10-13,2026-10-13,149,Low,True,12,360000
+LIC-0193,Vendor_B,SimEngine_X,Floating,Verification,EMEA,20,45.9,62.5,25000,500000,2025-02-28,2026-02-28,-78,Expired,False,9,225000
+LIC-0194,Vendor_C,VerifyTool_B,Floating,Verification,EMEA,5,14.8,40.6,25000,125000,2025-09-12,2027-09-12,483,Low,True,3,75000
+LIC-0195,Vendor_A,DesignTool_Lite,Floating,Physical Design,Americas,25,15.9,43.3,8000,200000,2025-06-04,2026-06-04,18,Critical,True,20,160000
+LIC-0196,Vendor_C,CoverageAnalyzer,Floating,Verification,Americas,25,49.2,56.5,30000,750000,2025-08-27,2026-08-27,102,Low,False,11,330000
+LIC-0197,Vendor_A,LayoutEditor,Node-Locked,Mixed-Signal,APAC,5,23.8,30.8,30000,150000,2024-07-05,2026-07-05,49,High,True,2,60000
+LIC-0198,Vendor_C,VerifyTool_B,Floating,Mixed-Signal,EMEA,5,50.9,68.4,30000,150000,2024-08-06,2026-08-06,81,Medium,False,1,30000
+LIC-0199,Vendor_C,CoverageAnalyzer,Node-Locked,DFT,APAC,50,36.7,51.9,20000,1000000,2025-12-03,2026-12-03,200,Low,True,30,600000
+LIC-0200,Vendor_A,SchematicCapture,Floating,DFT,EMEA,15,49.3,69.5,15000,225000,2025-03-26,2027-03-26,313,Low,False,6,90000
+LIC-0201,Vendor_B,SimEngine_Pro,Floating,Physical Design,Americas,15,28.6,39.6,8000,120000,2025-05-18,2027-05-18,366,Low,True,9,72000
+LIC-0202,Vendor_A,DesignTool_Lite,Floating,ASIC Design,APAC,20,21.4,48.0,20000,400000,2025-06-06,2026-06-06,20,Critical,True,14,280000
+LIC-0203,Vendor_B,WaveformViewer,Floating,Verification,APAC,25,80.2,96.9,15000,375000,2024-09-24,2025-09-24,-235,Expired,False,3,45000
+LIC-0204,Vendor_A,SchematicCapture,Node-Locked,Mixed-Signal,EMEA,10,83.6,100.0,8000,80000,2025-12-26,2027-12-26,588,Low,False,0,0
+LIC-0205,Vendor_B,TimingAnalyzer,Floating,Physical Design,Americas,5,72.6,88.4,15000,75000,2025-02-06,2027-02-06,265,Low,False,0,0
+LIC-0206,Vendor_B,SimEngine_X,Floating,DFT,APAC,10,43.9,58.0,15000,150000,2025-12-02,2027-12-02,564,Low,False,4,60000
+LIC-0207,Vendor_C,FormalChecker,Node-Locked,Mixed-Signal,EMEA,25,36.9,58.9,8000,200000,2025-10-07,2026-10-07,143,Low,True,14,112000
+LIC-0208,Vendor_B,WaveformViewer,Node-Locked,Physical Design,Americas,10,8.9,18.9,25000,250000,2024-12-31,2025-12-31,-137,Expired,True,8,200000
+LIC-0209,Vendor_A,DesignTool_Pro,Floating,Verification,Americas,20,43.4,61.4,12000,240000,2024-06-05,2025-06-05,-346,Expired,False,10,120000
+LIC-0210,Vendor_B,WaveformViewer,Node-Locked,Verification,EMEA,50,22.1,48.2,25000,1250000,2025-03-08,2027-03-08,295,Low,True,37,925000
+LIC-0211,Vendor_C,CoverageAnalyzer,Floating,DFT,APAC,50,12.8,20.5,20000,1000000,2024-06-28,2026-06-28,42,High,True,42,840000
+LIC-0212,Vendor_C,VerifyTool_A,Floating,Mixed-Signal,EMEA,50,43.1,67.7,25000,1250000,2024-07-04,2025-07-04,-317,Expired,False,27,675000
+LIC-0213,Vendor_C,VerifyTool_A,Floating,Mixed-Signal,EMEA,50,83.5,100.0,20000,1000000,2025-09-17,2026-09-17,123,Low,False,7,140000
+LIC-0214,Vendor_A,DesignTool_Pro,Floating,Verification,APAC,20,12.2,21.0,30000,600000,2025-07-22,2027-07-22,431,Low,True,16,480000
+LIC-0215,Vendor_C,FormalChecker,Floating,Analog,Americas,10,33.3,51.3,25000,250000,2025-03-20,2027-03-20,307,Low,True,5,125000
+LIC-0216,Vendor_C,FormalChecker,Floating,Physical Design,APAC,25,23.9,37.5,15000,375000,2025-05-21,2027-05-21,369,Low,True,18,270000
+LIC-0217,Vendor_A,DesignTool_Lite,Floating,Physical Design,Americas,15,49.1,73.4,30000,450000,2025-07-18,2027-07-18,427,Low,False,6,180000
+LIC-0218,Vendor_B,TimingAnalyzer,Node-Locked,Physical Design,Americas,50,51.1,62.9,8000,400000,2024-07-08,2026-07-08,52,High,False,23,184000
+LIC-0219,Vendor_B,WaveformViewer,Floating,Verification,EMEA,50,26.7,33.7,20000,1000000,2025-05-29,2027-05-29,377,Low,True,35,700000
+LIC-0220,Vendor_A,DesignTool_Lite,Node-Locked,Mixed-Signal,EMEA,50,25.9,37.7,8000,400000,2024-05-26,2025-05-26,-356,Expired,True,36,288000
+LIC-0221,Vendor_A,DesignTool_Pro,Floating,Analog,Americas,10,56.3,62.6,20000,200000,2025-03-14,2027-03-14,301,Low,False,3,60000
+LIC-0222,Vendor_A,DesignTool_Lite,Node-Locked,ASIC Design,Americas,10,21.4,36.6,20000,200000,2024-10-15,2025-10-15,-214,Expired,True,6,120000
+LIC-0223,Vendor_B,WaveformViewer,Floating,Physical Design,Americas,5,12.1,33.4,12000,60000,2024-08-17,2025-08-17,-273,Expired,True,3,36000
+LIC-0224,Vendor_A,SchematicCapture,Node-Locked,Verification,APAC,20,43.8,68.5,12000,240000,2025-04-25,2026-04-25,-22,Expired,False,10,120000
+LIC-0225,Vendor_A,LayoutEditor,Floating,Mixed-Signal,Americas,15,37.7,49.8,30000,450000,2024-08-08,2026-08-08,83,Medium,True,8,240000
+LIC-0226,Vendor_A,SchematicCapture,Node-Locked,Physical Design,APAC,15,40.5,49.6,20000,300000,2025-05-28,2026-05-28,11,Critical,False,7,140000
+LIC-0227,Vendor_A,LayoutEditor,Floating,Physical Design,Americas,10,60.7,70.1,30000,300000,2024-12-27,2026-12-27,224,Low,False,2,60000
+LIC-0228,Vendor_C,CoverageAnalyzer,Floating,ASIC Design,EMEA,10,56.9,86.4,20000,200000,2025-03-21,2026-03-21,-57,Expired,False,3,60000
+LIC-0229,Vendor_A,LayoutEditor,Floating,DFT,APAC,15,37.5,66.4,15000,225000,2024-06-29,2025-06-29,-322,Expired,True,8,120000
+LIC-0230,Vendor_B,WaveformViewer,Floating,Analog,APAC,5,35.0,51.6,12000,60000,2024-12-27,2026-12-27,224,Low,True,2,24000
+LIC-0231,Vendor_C,VerifyTool_A,Floating,Analog,EMEA,10,19.7,30.2,12000,120000,2024-10-14,2025-10-14,-215,Expired,True,7,84000
+LIC-0232,Vendor_B,WaveformViewer,Floating,DFT,Americas,20,11.6,35.5,30000,600000,2025-07-07,2026-07-07,51,High,True,16,480000
+LIC-0233,Vendor_C,VerifyTool_A,Floating,Mixed-Signal,EMEA,15,38.2,45.2,25000,375000,2025-10-24,2026-10-24,160,Low,True,8,200000
+LIC-0234,Vendor_C,VerifyTool_B,Floating,Mixed-Signal,Americas,15,52.5,78.9,20000,300000,2025-10-19,2026-10-19,155,Low,False,6,120000
+LIC-0235,Vendor_C,FormalChecker,Floating,ASIC Design,Americas,5,64.4,80.7,25000,125000,2024-12-17,2026-12-17,214,Low,False,0,0
+LIC-0236,Vendor_C,VerifyTool_A,Floating,Mixed-Signal,EMEA,15,67.9,91.0,20000,300000,2025-05-31,2026-05-31,14,Critical,False,3,60000
+LIC-0237,Vendor_C,VerifyTool_B,Floating,Mixed-Signal,APAC,15,68.0,90.5,25000,375000,2025-12-16,2026-12-16,213,Low,False,3,75000
+LIC-0238,Vendor_B,SimEngine_X,Floating,Physical Design,EMEA,10,49.8,73.9,30000,300000,2024-12-12,2026-12-12,209,Low,False,4,120000
+LIC-0239,Vendor_B,TimingAnalyzer,Floating,DFT,EMEA,50,24.8,51.7,12000,600000,2025-02-24,2026-02-24,-82,Expired,True,36,432000
+LIC-0240,Vendor_A,SchematicCapture,Node-Locked,Mixed-Signal,APAC,10,30.1,56.0,8000,80000,2025-04-16,2027-04-16,334,Low,True,5,40000
+LIC-0241,Vendor_C,FormalChecker,Node-Locked,Mixed-Signal,EMEA,10,53.5,70.0,12000,120000,2025-05-09,2026-05-09,-8,Expired,False,3,36000
+LIC-0242,Vendor_C,VerifyTool_A,Floating,ASIC Design,Americas,5,42.9,53.9,8000,40000,2025-11-04,2026-11-04,171,Low,False,1,8000
+LIC-0243,Vendor_B,SimEngine_X,Floating,Verification,Americas,20,57.6,68.5,12000,240000,2025-12-20,2026-12-20,217,Low,False,7,84000
+LIC-0244,Vendor_C,CoverageAnalyzer,Floating,Verification,Americas,25,37.9,57.8,30000,750000,2025-03-24,2026-03-24,-54,Expired,True,14,420000
+LIC-0245,Vendor_B,SimEngine_Pro,Floating,Analog,Americas,15,39.4,51.3,25000,375000,2024-06-20,2025-06-20,-331,Expired,True,8,200000
+LIC-0246,Vendor_C,FormalChecker,Floating,Mixed-Signal,EMEA,15,35.7,64.2,30000,450000,2025-01-21,2027-01-21,249,Low,True,8,240000
+LIC-0247,Vendor_C,FormalChecker,Floating,DFT,APAC,10,30.2,54.1,20000,200000,2025-06-14,2026-06-14,28,Critical,True,5,100000
+LIC-0248,Vendor_B,SimEngine_Pro,Floating,DFT,APAC,20,74.5,93.4,12000,240000,2025-01-14,2026-01-14,-123,Expired,False,4,48000
+LIC-0249,Vendor_B,SimEngine_Pro,Floating,Physical Design,Americas,20,27.8,54.0,8000,160000,2024-08-16,2025-08-16,-274,Expired,True,13,104000
+LIC-0250,Vendor_A,LayoutEditor,Floating,DFT,Americas,5,47.2,74.0,12000,60000,2024-06-24,2025-06-24,-327,Expired,False,1,12000
+LIC-0251,Vendor_B,SimEngine_Pro,Node-Locked,Physical Design,EMEA,5,24.2,34.5,12000,60000,2025-10-18,2027-10-18,519,Low,True,2,24000
+LIC-0252,Vendor_A,DesignTool_Lite,Floating,DFT,APAC,15,73.2,87.7,25000,375000,2025-02-13,2027-02-13,272,Low,False,3,75000
+LIC-0253,Vendor_B,WaveformViewer,Floating,Mixed-Signal,EMEA,50,17.5,34.2,15000,750000,2025-07-22,2027-07-22,431,Low,True,40,600000
+LIC-0254,Vendor_B,TimingAnalyzer,Node-Locked,ASIC Design,Americas,50,21.4,30.0,15000,750000,2024-07-29,2026-07-29,73,Medium,True,38,570000
+LIC-0255,Vendor_B,SimEngine_Pro,Floating,Verification,EMEA,25,58.9,84.7,20000,500000,2024-08-01,2026-08-01,76,Medium,False,9,180000
+LIC-0256,Vendor_B,TimingAnalyzer,Node-Locked,Analog,Americas,20,45.5,54.7,15000,300000,2025-08-26,2026-08-26,101,Low,False,9,135000
+LIC-0257,Vendor_C,FormalChecker,Node-Locked,Verification,Americas,5,30.0,48.1,8000,40000,2025-12-28,2026-12-28,225,Low,True,2,16000
+LIC-0258,Vendor_B,SimEngine_Pro,Floating,Analog,APAC,10,52.5,57.7,25000,250000,2024-11-06,2026-11-06,173,Low,False,3,75000
+LIC-0259,Vendor_A,SchematicCapture,Floating,Analog,EMEA,25,36.0,54.8,8000,200000,2026-01-29,2028-01-29,622,Low,True,15,120000
+LIC-0260,Vendor_C,CoverageAnalyzer,Node-Locked,ASIC Design,Americas,50,28.8,44.6,12000,600000,2025-10-29,2026-10-29,165,Low,True,34,408000
+LIC-0261,Vendor_C,VerifyTool_B,Floating,Verification,APAC,15,30.9,56.3,15000,225000,2025-01-05,2026-01-05,-132,Expired,True,9,135000
+LIC-0262,Vendor_B,TimingAnalyzer,Floating,DFT,Americas,50,67.1,77.7,30000,1500000,2025-11-25,2026-11-25,192,Low,False,15,450000
+LIC-0263,Vendor_A,SchematicCapture,Floating,DFT,EMEA,5,55.1,76.0,30000,150000,2025-08-24,2026-08-24,99,Low,False,1,30000
+LIC-0264,Vendor_B,TimingAnalyzer,Floating,Analog,EMEA,5,48.9,76.3,8000,40000,2025-06-25,2026-06-25,39,High,False,1,8000
+LIC-0265,Vendor_C,FormalChecker,Node-Locked,Physical Design,APAC,50,40.0,68.1,25000,1250000,2024-07-18,2025-07-18,-303,Expired,False,29,725000
+LIC-0266,Vendor_A,LayoutEditor,Floating,ASIC Design,APAC,50,33.1,58.6,8000,400000,2025-04-15,2026-04-15,-32,Expired,True,32,256000
+LIC-0267,Vendor_C,VerifyTool_B,Floating,Mixed-Signal,EMEA,25,26.4,39.7,30000,750000,2025-09-25,2026-09-25,131,Low,True,17,510000
+LIC-0268,Vendor_C,CoverageAnalyzer,Floating,ASIC Design,APAC,5,62.9,76.4,25000,125000,2024-06-16,2026-06-16,30,Critical,False,0,0
+LIC-0269,Vendor_B,SimEngine_X,Node-Locked,Analog,EMEA,20,14.3,31.6,15000,300000,2024-07-29,2026-07-29,73,Medium,True,16,240000
+LIC-0270,Vendor_B,SimEngine_Pro,Floating,Analog,Americas,5,10.3,34.6,15000,75000,2025-06-08,2026-06-08,22,Critical,True,3,45000
+LIC-0271,Vendor_A,LayoutEditor,Node-Locked,Verification,EMEA,50,51.4,60.3,20000,1000000,2025-03-28,2027-03-28,315,Low,False,23,460000
+LIC-0272,Vendor_A,DesignTool_Pro,Floating,ASIC Design,EMEA,15,28.7,36.3,8000,120000,2025-08-08,2027-08-08,448,Low,True,9,72000
+LIC-0273,Vendor_B,TimingAnalyzer,Floating,ASIC Design,APAC,25,66.3,73.6,25000,625000,2025-03-20,2027-03-20,307,Low,False,7,175000
+LIC-0274,Vendor_A,LayoutEditor,Node-Locked,DFT,EMEA,50,56.9,84.4,12000,600000,2024-07-10,2025-07-10,-311,Expired,False,20,240000
+LIC-0275,Vendor_C,FormalChecker,Floating,Verification,APAC,15,37.6,54.9,8000,120000,2025-08-28,2027-08-28,468,Low,True,8,64000
+LIC-0276,Vendor_B,TimingAnalyzer,Node-Locked,Physical Design,EMEA,15,57.4,68.7,12000,180000,2024-05-16,2026-05-16,-1,Expired,False,5,60000
+LIC-0277,Vendor_C,VerifyTool_B,Floating,DFT,APAC,5,61.8,90.5,15000,75000,2024-05-21,2026-05-21,4,Critical,False,0,0
+LIC-0278,Vendor_B,TimingAnalyzer,Node-Locked,Physical Design,EMEA,50,64.5,93.9,12000,600000,2025-04-14,2027-04-14,332,Low,False,16,192000
+LIC-0279,Vendor_C,VerifyTool_B,Floating,DFT,EMEA,20,31.8,61.0,15000,300000,2024-10-01,2025-10-01,-228,Expired,True,12,180000
+LIC-0280,Vendor_B,TimingAnalyzer,Floating,Physical Design,EMEA,25,10.1,20.1,25000,625000,2025-08-15,2026-08-15,90,Medium,True,21,525000
+LIC-0281,Vendor_C,FormalChecker,Floating,Analog,APAC,15,2.1,27.9,8000,120000,2024-12-24,2026-12-24,221,Low,True,13,104000
+LIC-0282,Vendor_A,LayoutEditor,Floating,Verification,EMEA,50,62.3,77.9,20000,1000000,2025-12-02,2027-12-02,564,Low,False,17,340000
+LIC-0283,Vendor_C,FormalChecker,Floating,Mixed-Signal,EMEA,50,37.6,53.1,8000,400000,2025-02-12,2026-02-12,-94,Expired,True,30,240000
+LIC-0284,Vendor_A,DesignTool_Lite,Floating,Analog,Americas,50,19.8,40.1,25000,1250000,2025-01-02,2027-01-02,230,Low,True,39,975000
+LIC-0285,Vendor_B,SimEngine_X,Floating,ASIC Design,APAC,25,42.7,66.4,25000,625000,2024-07-01,2025-07-01,-320,Expired,False,13,325000
+LIC-0286,Vendor_B,WaveformViewer,Node-Locked,DFT,EMEA,25,41.0,63.3,12000,300000,2025-02-27,2026-02-27,-79,Expired,False,13,156000
+LIC-0287,Vendor_B,SimEngine_X,Node-Locked,Physical Design,EMEA,5,42.0,49.9,30000,150000,2025-09-23,2027-09-23,494,Low,False,1,30000
+LIC-0288,Vendor_B,WaveformViewer,Floating,DFT,APAC,15,30.8,47.7,20000,300000,2024-11-09,2026-11-09,176,Low,True,9,180000
+LIC-0289,Vendor_A,LayoutEditor,Floating,ASIC Design,Americas,15,53.4,74.6,30000,450000,2025-08-31,2026-08-31,106,Low,False,5,150000
+LIC-0290,Vendor_C,VerifyTool_B,Floating,Mixed-Signal,APAC,20,17.9,46.9,12000,240000,2024-12-28,2025-12-28,-140,Expired,True,15,180000
+LIC-0291,Vendor_A,SchematicCapture,Node-Locked,DFT,APAC,10,32.5,48.7,20000,200000,2025-01-13,2026-01-13,-124,Expired,True,5,100000
+LIC-0292,Vendor_C,VerifyTool_B,Node-Locked,Verification,EMEA,5,22.6,42.0,25000,125000,2025-08-08,2027-08-08,448,Low,True,2,50000
+LIC-0293,Vendor_B,SimEngine_Pro,Floating,DFT,APAC,20,52.7,70.9,30000,600000,2025-04-01,2027-04-01,319,Low,False,8,240000
+LIC-0294,Vendor_C,FormalChecker,Floating,Mixed-Signal,APAC,20,23.6,44.0,30000,600000,2025-04-17,2026-04-17,-30,Expired,True,14,420000
+LIC-0295,Vendor_C,VerifyTool_B,Floating,Physical Design,APAC,5,13.5,23.1,30000,150000,2025-09-24,2027-09-24,495,Low,True,3,90000
+LIC-0296,Vendor_B,SimEngine_Pro,Floating,Mixed-Signal,EMEA,20,45.7,66.6,30000,600000,2025-08-22,2026-08-22,97,Low,False,9,270000
+LIC-0297,Vendor_B,WaveformViewer,Floating,Verification,APAC,20,44.6,65.1,15000,300000,2026-02-06,2028-02-06,630,Low,False,10,150000
+LIC-0298,Vendor_A,DesignTool_Lite,Floating,DFT,Americas,20,13.6,28.8,20000,400000,2024-12-17,2026-12-17,214,Low,True,16,320000
+LIC-0299,Vendor_B,SimEngine_Pro,Floating,ASIC Design,Americas,10,60.3,72.6,15000,150000,2025-06-30,2027-06-30,409,Low,False,2,30000
+LIC-0300,Vendor_A,SchematicCapture,Node-Locked,Mixed-Signal,Americas,20,41.4,60.1,8000,160000,2024-07-09,2025-07-09,-312,Expired,False,10,80000
+LIC-0301,Vendor_B,WaveformViewer,Node-Locked,Mixed-Signal,APAC,20,29.4,48.1,20000,400000,2025-11-03,2026-11-03,170,Low,True,13,260000
+LIC-0302,Vendor_B,SimEngine_X,Floating,DFT,EMEA,5,5.6,21.6,8000,40000,2025-06-18,2026-06-18,32,High,True,3,24000
+LIC-0303,Vendor_C,CoverageAnalyzer,Floating,Analog,Americas,10,53.9,74.3,12000,120000,2025-07-19,2026-07-19,63,Medium,False,3,36000
+LIC-0304,Vendor_C,CoverageAnalyzer,Floating,Mixed-Signal,EMEA,10,43.6,56.7,30000,300000,2025-04-22,2027-04-22,340,Low,False,4,120000
+LIC-0305,Vendor_C,CoverageAnalyzer,Node-Locked,Mixed-Signal,Americas,10,47.1,76.2,20000,200000,2025-12-17,2027-12-17,579,Low,False,4,80000
+LIC-0306,Vendor_C,VerifyTool_B,Floating,Analog,APAC,50,50.3,63.4,12000,600000,2025-01-09,2027-01-09,237,Low,False,23,276000
+LIC-0307,Vendor_A,LayoutEditor,Floating,Analog,EMEA,5,8.9,29.7,8000,40000,2024-12-30,2026-12-30,227,Low,True,3,24000
+LIC-0308,Vendor_C,CoverageAnalyzer,Floating,DFT,EMEA,5,31.3,58.0,30000,150000,2025-11-12,2027-11-12,544,Low,True,2,60000
+LIC-0309,Vendor_C,CoverageAnalyzer,Floating,ASIC Design,Americas,20,62.2,87.8,20000,400000,2025-05-17,2027-05-17,365,Low,False,6,120000
+LIC-0310,Vendor_B,WaveformViewer,Floating,Mixed-Signal,Americas,20,15.0,39.7,30000,600000,2025-12-28,2026-12-28,225,Low,True,16,480000
+LIC-0311,Vendor_A,SchematicCapture,Node-Locked,ASIC Design,APAC,10,37.0,53.0,8000,80000,2024-12-04,2025-12-04,-164,Expired,True,5,40000
+LIC-0312,Vendor_C,VerifyTool_B,Floating,Analog,EMEA,15,14.3,21.6,15000,225000,2025-06-04,2026-06-04,18,Critical,True,11,165000
+LIC-0313,Vendor_B,SimEngine_Pro,Floating,ASIC Design,EMEA,50,52.4,74.9,12000,600000,2024-12-03,2025-12-03,-165,Expired,False,22,264000
+LIC-0314,Vendor_C,VerifyTool_A,Floating,ASIC Design,APAC,10,37.7,57.5,25000,250000,2024-11-17,2025-11-17,-181,Expired,True,5,125000
+LIC-0315,Vendor_A,LayoutEditor,Floating,ASIC Design,EMEA,20,52.5,59.3,20000,400000,2025-11-16,2026-11-16,183,Low,False,8,160000
+LIC-0316,Vendor_A,LayoutEditor,Floating,Physical Design,EMEA,10,49.1,70.1,30000,300000,2025-09-22,2026-09-22,128,Low,False,4,120000
+LIC-0317,Vendor_C,VerifyTool_A,Floating,Mixed-Signal,Americas,15,71.3,94.4,30000,450000,2025-09-13,2027-09-13,484,Low,False,3,90000
+LIC-0318,Vendor_C,FormalChecker,Node-Locked,Verification,APAC,10,73.1,96.9,25000,250000,2025-01-18,2027-01-18,246,Low,False,1,25000
+LIC-0319,Vendor_B,WaveformViewer,Floating,Verification,APAC,5,12.1,23.3,25000,125000,2024-06-11,2026-06-11,25,Critical,True,3,75000
+LIC-0320,Vendor_C,VerifyTool_A,Floating,Analog,EMEA,25,46.2,63.9,30000,750000,2025-01-10,2027-01-10,238,Low,False,12,360000
+LIC-0321,Vendor_C,VerifyTool_A,Floating,Verification,EMEA,10,73.4,90.9,25000,250000,2025-12-05,2026-12-05,202,Low,False,1,25000
+LIC-0322,Vendor_B,WaveformViewer,Node-Locked,Verification,EMEA,25,40.9,56.4,25000,625000,2025-08-23,2027-08-23,463,Low,False,13,325000
+LIC-0323,Vendor_A,DesignTool_Pro,Floating,Mixed-Signal,APAC,10,80.0,86.0,8000,80000,2025-01-04,2027-01-04,232,Low,False,0,0
+LIC-0324,Vendor_C,FormalChecker,Floating,DFT,Americas,50,32.9,51.3,25000,1250000,2025-09-12,2027-09-12,483,Low,True,32,800000
+LIC-0325,Vendor_A,LayoutEditor,Node-Locked,ASIC Design,Americas,10,57.7,76.1,20000,200000,2024-06-25,2025-06-25,-326,Expired,False,3,60000
+LIC-0326,Vendor_B,TimingAnalyzer,Floating,Analog,APAC,5,76.8,100.0,8000,40000,2024-11-08,2025-11-08,-190,Expired,False,0,0
+LIC-0327,Vendor_B,SimEngine_Pro,Node-Locked,ASIC Design,APAC,50,19.0,24.3,20000,1000000,2025-02-25,2027-02-25,284,Low,True,39,780000
+LIC-0328,Vendor_A,LayoutEditor,Node-Locked,Verification,Americas,15,35.1,58.4,8000,120000,2026-01-16,2028-01-16,609,Low,True,8,64000
+LIC-0329,Vendor_B,WaveformViewer,Floating,Mixed-Signal,APAC,25,75.7,96.4,20000,500000,2024-11-06,2026-11-06,173,Low,False,5,100000
+LIC-0330,Vendor_A,SchematicCapture,Floating,Mixed-Signal,APAC,15,48.3,72.6,25000,375000,2025-10-20,2026-10-20,156,Low,False,6,150000
+LIC-0331,Vendor_C,VerifyTool_A,Floating,ASIC Design,APAC,20,50.7,64.8,12000,240000,2025-08-16,2026-08-16,91,Low,False,8,96000
+LIC-0332,Vendor_C,FormalChecker,Floating,Verification,EMEA,50,60.2,73.2,8000,400000,2024-07-10,2026-07-10,54,High,False,18,144000
+LIC-0333,Vendor_A,DesignTool_Pro,Node-Locked,Verification,APAC,5,36.0,64.9,8000,40000,2024-10-27,2026-10-27,163,Low,True,2,16000
+LIC-0334,Vendor_B,WaveformViewer,Floating,ASIC Design,Americas,15,53.0,63.0,25000,375000,2025-04-10,2026-04-10,-37,Expired,False,6,150000
+LIC-0335,Vendor_B,WaveformViewer,Node-Locked,Mixed-Signal,EMEA,10,47.5,70.8,25000,250000,2025-06-09,2026-06-09,23,Critical,False,4,100000
+LIC-0336,Vendor_A,SchematicCapture,Floating,ASIC Design,APAC,50,28.0,54.0,8000,400000,2025-03-09,2026-03-09,-69,Expired,True,35,280000
+LIC-0337,Vendor_C,FormalChecker,Floating,Analog,Americas,10,35.7,53.9,12000,120000,2024-12-13,2026-12-13,210,Low,True,5,60000
+LIC-0338,Vendor_A,DesignTool_Lite,Floating,Analog,EMEA,10,79.0,100.0,25000,250000,2024-12-20,2026-12-20,217,Low,False,1,25000
+LIC-0339,Vendor_B,SimEngine_X,Floating,Mixed-Signal,APAC,50,23.0,48.5,8000,400000,2024-06-19,2025-06-19,-332,Expired,True,37,296000
+LIC-0340,Vendor_B,SimEngine_Pro,Floating,Verification,EMEA,15,63.7,91.9,20000,300000,2025-03-18,2027-03-18,305,Low,False,4,80000
+LIC-0341,Vendor_B,WaveformViewer,Node-Locked,Verification,APAC,10,43.0,67.5,25000,250000,2025-10-27,2026-10-27,163,Low,False,4,100000
+LIC-0342,Vendor_A,DesignTool_Lite,Floating,DFT,EMEA,5,58.9,77.3,12000,60000,2024-11-10,2026-11-10,177,Low,False,1,12000
+LIC-0343,Vendor_B,WaveformViewer,Floating,ASIC Design,APAC,50,59.6,72.2,30000,1500000,2024-06-08,2025-06-08,-343,Expired,False,19,570000
+LIC-0344,Vendor_A,LayoutEditor,Node-Locked,Verification,APAC,15,46.1,61.0,8000,120000,2025-04-15,2027-04-15,333,Low,False,7,56000
+LIC-0345,Vendor_A,DesignTool_Pro,Floating,DFT,EMEA,25,29.4,40.6,20000,500000,2025-11-03,2026-11-03,170,Low,True,16,320000
+LIC-0346,Vendor_A,DesignTool_Pro,Floating,ASIC Design,APAC,20,71.7,86.0,30000,600000,2025-11-21,2027-11-21,553,Low,False,4,120000
+LIC-0347,Vendor_A,DesignTool_Pro,Node-Locked,ASIC Design,APAC,20,61.9,87.1,8000,160000,2025-03-13,2026-03-13,-65,Expired,False,6,48000
+LIC-0348,Vendor_A,SchematicCapture,Node-Locked,ASIC Design,APAC,20,45.2,70.7,20000,400000,2024-09-25,2025-09-25,-234,Expired,False,9,180000
+LIC-0349,Vendor_B,TimingAnalyzer,Floating,Verification,EMEA,10,44.4,56.3,20000,200000,2025-09-16,2026-09-16,122,Low,False,4,80000
+LIC-0350,Vendor_C,VerifyTool_B,Floating,Analog,EMEA,25,22.4,39.4,8000,200000,2025-05-05,2027-05-05,353,Low,True,18,144000
+LIC-0351,Vendor_A,SchematicCapture,Node-Locked,Verification,Americas,25,56.4,67.6,25000,625000,2026-01-27,2028-01-27,620,Low,False,9,225000
+LIC-0352,Vendor_C,CoverageAnalyzer,Node-Locked,DFT,Americas,15,72.4,100.0,25000,375000,2025-03-23,2027-03-23,310,Low,False,3,75000
+LIC-0353,Vendor_B,SimEngine_Pro,Floating,ASIC Design,EMEA,5,19.7,47.1,15000,75000,2025-12-18,2027-12-18,580,Low,True,3,45000
+LIC-0354,Vendor_C,CoverageAnalyzer,Node-Locked,Mixed-Signal,APAC,5,21.8,33.0,12000,60000,2025-05-19,2026-05-19,2,Critical,True,2,24000
+LIC-0355,Vendor_A,SchematicCapture,Floating,Physical Design,APAC,25,39.1,52.1,30000,750000,2025-02-13,2026-02-13,-93,Expired,True,14,420000
+LIC-0356,Vendor_C,CoverageAnalyzer,Floating,Mixed-Signal,Americas,10,25.5,51.4,20000,200000,2024-08-09,2026-08-09,84,Medium,True,6,120000
+LIC-0357,Vendor_A,SchematicCapture,Floating,ASIC Design,APAC,25,38.1,48.6,25000,625000,2024-10-14,2025-10-14,-215,Expired,True,14,350000
+LIC-0358,Vendor_B,SimEngine_Pro,Node-Locked,Verification,EMEA,15,37.4,43.9,12000,180000,2024-06-25,2025-06-25,-326,Expired,True,8,96000
+LIC-0359,Vendor_A,LayoutEditor,Node-Locked,ASIC Design,EMEA,50,20.7,35.6,8000,400000,2025-03-08,2027-03-08,295,Low,True,38,304000
+LIC-0360,Vendor_B,SimEngine_Pro,Node-Locked,Verification,Americas,50,75.4,100.0,30000,1500000,2025-03-28,2026-03-28,-50,Expired,False,11,330000
+LIC-0361,Vendor_C,CoverageAnalyzer,Floating,Verification,Americas,10,20.0,34.5,30000,300000,2025-04-20,2026-04-20,-27,Expired,True,7,210000
+LIC-0362,Vendor_A,DesignTool_Pro,Floating,Analog,Americas,25,38.3,44.1,25000,625000,2025-03-27,2026-03-27,-51,Expired,True,14,350000
+LIC-0363,Vendor_C,VerifyTool_A,Floating,DFT,APAC,5,24.5,35.4,15000,75000,2025-08-28,2026-08-28,103,Low,True,2,30000
+LIC-0364,Vendor_C,CoverageAnalyzer,Floating,DFT,APAC,10,67.2,89.5,15000,150000,2025-05-29,2026-05-29,12,Critical,False,2,30000
+LIC-0365,Vendor_C,VerifyTool_A,Floating,ASIC Design,EMEA,20,42.0,71.2,20000,400000,2024-09-29,2026-09-29,135,Low,False,10,200000
+LIC-0366,Vendor_B,TimingAnalyzer,Node-Locked,ASIC Design,EMEA,25,41.8,63.1,30000,750000,2025-06-30,2026-06-30,44,High,False,13,390000
+LIC-0367,Vendor_B,SimEngine_X,Floating,ASIC Design,EMEA,15,72.5,100.0,8000,120000,2025-03-02,2026-03-02,-76,Expired,False,3,24000
+LIC-0368,Vendor_B,SimEngine_Pro,Floating,Analog,APAC,5,33.0,46.4,25000,125000,2024-10-09,2025-10-09,-220,Expired,True,2,50000
+LIC-0369,Vendor_B,SimEngine_Pro,Floating,Mixed-Signal,EMEA,5,47.0,60.3,12000,60000,2024-12-23,2026-12-23,220,Low,False,1,12000
+LIC-0370,Vendor_C,CoverageAnalyzer,Floating,Physical Design,APAC,20,24.3,43.6,20000,400000,2025-09-11,2026-09-11,117,Low,True,14,280000
+LIC-0371,Vendor_B,SimEngine_X,Floating,DFT,APAC,50,38.7,59.3,20000,1000000,2025-07-26,2026-07-26,70,Medium,True,29,580000
+LIC-0372,Vendor_A,DesignTool_Lite,Floating,Verification,Americas,5,52.5,69.3,8000,40000,2025-04-06,2027-04-06,324,Low,False,1,8000
+LIC-0373,Vendor_B,TimingAnalyzer,Floating,Analog,EMEA,25,21.2,35.9,15000,375000,2025-01-21,2027-01-21,249,Low,True,18,270000
+LIC-0374,Vendor_A,SchematicCapture,Floating,ASIC Design,EMEA,15,34.2,44.9,15000,225000,2024-07-18,2025-07-18,-303,Expired,True,8,120000
+LIC-0375,Vendor_A,DesignTool_Pro,Floating,ASIC Design,Americas,25,46.9,62.2,25000,625000,2025-06-28,2026-06-28,42,High,False,12,300000
+LIC-0376,Vendor_B,TimingAnalyzer,Node-Locked,Mixed-Signal,Americas,20,14.7,34.0,12000,240000,2024-10-16,2026-10-16,152,Low,True,16,192000
+LIC-0377,Vendor_A,SchematicCapture,Floating,Analog,APAC,25,52.4,77.4,30000,750000,2024-05-21,2025-05-21,-361,Expired,False,10,300000
+LIC-0378,Vendor_A,SchematicCapture,Node-Locked,Verification,APAC,10,46.4,54.6,20000,200000,2025-11-27,2027-11-27,559,Low,False,4,80000
+LIC-0379,Vendor_A,DesignTool_Lite,Floating,Mixed-Signal,EMEA,50,31.1,59.0,8000,400000,2025-11-18,2027-11-18,550,Low,True,33,264000
+LIC-0380,Vendor_C,FormalChecker,Node-Locked,Mixed-Signal,EMEA,25,41.3,57.8,8000,200000,2024-05-18,2026-05-18,1,Critical,False,13,104000
+LIC-0381,Vendor_A,SchematicCapture,Floating,Verification,APAC,25,78.1,100.0,8000,200000,2025-10-30,2026-10-30,166,Low,False,4,32000
+LIC-0382,Vendor_B,WaveformViewer,Floating,DFT,EMEA,20,16.3,35.6,20000,400000,2026-01-08,2027-01-08,236,Low,True,15,300000
+LIC-0383,Vendor_B,TimingAnalyzer,Floating,Verification,Americas,50,37.5,52.5,20000,1000000,2025-03-13,2026-03-13,-65,Expired,True,30,600000
+LIC-0384,Vendor_A,SchematicCapture,Floating,Physical Design,EMEA,15,78.7,91.5,20000,300000,2025-11-07,2026-11-07,174,Low,False,2,40000
+LIC-0385,Vendor_A,LayoutEditor,Node-Locked,Analog,EMEA,15,23.9,35.6,20000,300000,2024-06-06,2025-06-06,-345,Expired,True,10,200000
+LIC-0386,Vendor_A,SchematicCapture,Node-Locked,Verification,EMEA,25,30.6,57.3,8000,200000,2024-09-06,2025-09-06,-253,Expired,True,16,128000
+LIC-0387,Vendor_A,LayoutEditor,Floating,Analog,Americas,25,60.7,87.7,8000,200000,2025-08-22,2026-08-22,97,Low,False,8,64000
+LIC-0388,Vendor_A,DesignTool_Pro,Floating,Verification,APAC,15,44.1,66.7,15000,225000,2025-02-03,2027-02-03,262,Low,False,7,105000
+LIC-0389,Vendor_C,FormalChecker,Floating,Analog,APAC,10,35.8,50.1,25000,250000,2024-11-16,2025-11-16,-182,Expired,True,5,125000
+LIC-0390,Vendor_B,WaveformViewer,Node-Locked,Physical Design,APAC,15,16.6,40.3,30000,450000,2025-11-15,2027-11-15,547,Low,True,11,330000
+LIC-0391,Vendor_A,SchematicCapture,Node-Locked,ASIC Design,APAC,10,58.1,84.5,30000,300000,2025-06-30,2026-06-30,44,High,False,3,90000
+LIC-0392,Vendor_B,TimingAnalyzer,Node-Locked,Mixed-Signal,APAC,50,77.8,83.0,12000,600000,2025-08-22,2026-08-22,97,Low,False,10,120000
+LIC-0393,Vendor_A,LayoutEditor,Node-Locked,Mixed-Signal,EMEA,50,39.4,60.5,20000,1000000,2025-01-26,2027-01-26,254,Low,True,29,580000
+LIC-0394,Vendor_B,WaveformViewer,Floating,Verification,EMEA,25,57.8,83.4,20000,500000,2024-06-27,2025-06-27,-324,Expired,False,9,180000
+LIC-0395,Vendor_A,LayoutEditor,Floating,Mixed-Signal,Americas,15,29.4,41.9,8000,120000,2024-10-10,2025-10-10,-219,Expired,True,9,72000
+LIC-0396,Vendor_B,WaveformViewer,Node-Locked,Analog,EMEA,15,25.2,46.6,30000,450000,2025-04-16,2026-04-16,-31,Expired,True,10,300000
+LIC-0397,Vendor_A,DesignTool_Lite,Floating,ASIC Design,Americas,15,15.1,37.1,30000,450000,2026-01-20,2028-01-20,613,Low,True,11,330000
+LIC-0398,Vendor_B,WaveformViewer,Floating,DFT,EMEA,5,48.0,67.6,25000,125000,2025-08-05,2027-08-05,445,Low,False,1,25000
+LIC-0399,Vendor_C,VerifyTool_B,Floating,Analog,Americas,20,67.3,95.0,30000,600000,2025-02-13,2027-02-13,272,Low,False,5,150000
+LIC-0400,Vendor_A,DesignTool_Lite,Floating,Physical Design,APAC,50,36.0,47.5,25000,1250000,2025-08-12,2027-08-12,452,Low,True,31,775000
+LIC-0401,Vendor_C,VerifyTool_A,Floating,Verification,EMEA,15,57.1,72.6,15000,225000,2025-01-31,2027-01-31,259,Low,False,5,75000
+LIC-0402,Vendor_C,CoverageAnalyzer,Floating,DFT,APAC,50,34.5,54.1,25000,1250000,2025-12-05,2027-12-05,567,Low,True,31,775000
+LIC-0403,Vendor_A,DesignTool_Pro,Floating,Analog,EMEA,20,53.3,59.7,12000,240000,2025-09-28,2026-09-28,134,Low,False,8,96000
+LIC-0404,Vendor_B,TimingAnalyzer,Floating,Mixed-Signal,EMEA,50,38.2,47.7,8000,400000,2024-10-04,2026-10-04,140,Low,True,29,232000
+LIC-0405,Vendor_C,VerifyTool_B,Floating,Physical Design,Americas,20,7.9,19.7,12000,240000,2024-07-05,2025-07-05,-316,Expired,True,17,204000
+LIC-0406,Vendor_B,SimEngine_X,Floating,Verification,Americas,20,23.5,38.6,20000,400000,2025-01-19,2026-01-19,-118,Expired,True,14,280000
+LIC-0407,Vendor_A,DesignTool_Lite,Node-Locked,Analog,EMEA,15,29.8,53.7,25000,375000,2025-08-04,2026-08-04,79,Medium,True,9,225000
+LIC-0408,Vendor_C,VerifyTool_A,Floating,Analog,Americas,50,36.7,63.6,15000,750000,2025-10-06,2026-10-06,142,Low,True,30,450000
+LIC-0409,Vendor_B,WaveformViewer,Node-Locked,Verification,APAC,15,48.6,77.3,20000,300000,2024-09-01,2026-09-01,107,Low,False,6,120000
+LIC-0410,Vendor_B,SimEngine_Pro,Floating,Physical Design,EMEA,10,12.7,21.8,20000,200000,2026-01-27,2027-01-27,255,Low,True,7,140000
+LIC-0411,Vendor_A,DesignTool_Lite,Floating,Verification,Americas,25,15.5,24.7,15000,375000,2026-01-08,2028-01-08,601,Low,True,20,300000
+LIC-0412,Vendor_C,CoverageAnalyzer,Floating,Mixed-Signal,Americas,5,35.5,57.0,30000,150000,2026-01-26,2027-01-26,254,Low,True,2,60000
+LIC-0413,Vendor_C,VerifyTool_A,Floating,DFT,EMEA,25,65.5,76.8,30000,750000,2025-09-12,2026-09-12,118,Low,False,7,210000
+LIC-0414,Vendor_C,VerifyTool_A,Floating,Physical Design,EMEA,50,47.4,65.4,25000,1250000,2024-06-05,2025-06-05,-346,Expired,False,25,625000
+LIC-0415,Vendor_B,SimEngine_X,Floating,Mixed-Signal,Americas,15,18.6,26.5,8000,120000,2024-09-24,2025-09-24,-235,Expired,True,11,88000
+LIC-0416,Vendor_C,VerifyTool_B,Node-Locked,Physical Design,Americas,15,11.0,33.6,15000,225000,2025-09-04,2026-09-04,110,Low,True,12,180000
+LIC-0417,Vendor_C,FormalChecker,Node-Locked,Verification,Americas,15,30.3,41.2,8000,120000,2025-11-16,2026-11-16,183,Low,True,9,72000
+LIC-0418,Vendor_C,FormalChecker,Node-Locked,Verification,APAC,5,38.7,61.8,8000,40000,2025-05-29,2026-05-29,12,Critical,True,2,16000
+LIC-0419,Vendor_B,WaveformViewer,Floating,Physical Design,EMEA,10,64.4,91.3,15000,150000,2025-02-12,2027-02-12,271,Low,False,2,30000
+LIC-0420,Vendor_B,SimEngine_X,Floating,ASIC Design,APAC,10,15.0,36.6,12000,120000,2025-03-16,2027-03-16,303,Low,True,7,84000
+LIC-0421,Vendor_B,WaveformViewer,Floating,Analog,APAC,15,55.7,65.3,20000,300000,2025-01-02,2027-01-02,230,Low,False,5,100000
+LIC-0422,Vendor_B,TimingAnalyzer,Node-Locked,Analog,EMEA,50,23.7,50.9,12000,600000,2025-10-23,2026-10-23,159,Low,True,37,444000
+LIC-0423,Vendor_C,VerifyTool_A,Floating,Verification,APAC,25,67.6,84.7,25000,625000,2024-11-24,2025-11-24,-174,Expired,False,7,175000
+LIC-0424,Vendor_C,FormalChecker,Floating,Physical Design,Americas,50,55.7,82.7,30000,1500000,2025-10-05,2027-10-05,506,Low,False,21,630000
+LIC-0425,Vendor_B,SimEngine_X,Floating,DFT,EMEA,15,55.3,76.7,8000,120000,2024-08-27,2025-08-27,-263,Expired,False,5,40000
+LIC-0426,Vendor_C,CoverageAnalyzer,Floating,Mixed-Signal,Americas,25,62.4,69.8,30000,750000,2025-06-06,2027-06-06,385,Low,False,8,240000
+LIC-0427,Vendor_B,TimingAnalyzer,Node-Locked,Verification,Americas,25,29.5,35.9,30000,750000,2025-09-08,2027-09-08,479,Low,True,16,480000
+LIC-0428,Vendor_B,SimEngine_Pro,Floating,ASIC Design,EMEA,15,72.9,100.0,8000,120000,2024-09-14,2025-09-14,-245,Expired,False,3,24000
+LIC-0429,Vendor_C,FormalChecker,Floating,DFT,APAC,20,36.1,61.1,20000,400000,2025-11-17,2027-11-17,549,Low,True,11,220000
+LIC-0430,Vendor_B,WaveformViewer,Node-Locked,ASIC Design,EMEA,5,53.4,61.0,20000,100000,2026-01-10,2027-01-10,238,Low,False,1,20000
+LIC-0431,Vendor_A,LayoutEditor,Floating,Mixed-Signal,Americas,50,70.0,86.4,15000,750000,2025-02-08,2026-02-08,-98,Expired,False,14,210000
+LIC-0432,Vendor_A,SchematicCapture,Node-Locked,Physical Design,Americas,25,9.1,25.9,30000,750000,2025-02-08,2027-02-08,267,Low,True,21,630000
+LIC-0433,Vendor_A,DesignTool_Pro,Floating,Analog,APAC,15,61.1,86.8,15000,225000,2024-08-04,2026-08-04,79,Medium,False,4,60000
+LIC-0434,Vendor_C,VerifyTool_A,Floating,ASIC Design,APAC,50,58.1,81.7,20000,1000000,2025-10-29,2027-10-29,530,Low,False,19,380000
+LIC-0435,Vendor_C,VerifyTool_B,Node-Locked,Verification,APAC,20,56.2,66.6,12000,240000,2025-03-06,2026-03-06,-72,Expired,False,7,84000
+LIC-0436,Vendor_B,SimEngine_X,Floating,Analog,Americas,20,19.5,35.9,25000,500000,2024-09-17,2025-09-17,-242,Expired,True,15,375000
+LIC-0437,Vendor_B,SimEngine_X,Floating,Mixed-Signal,Americas,20,22.3,48.3,20000,400000,2024-09-13,2025-09-13,-246,Expired,True,14,280000
+LIC-0438,Vendor_C,VerifyTool_B,Floating,Analog,APAC,50,35.5,55.5,15000,750000,2024-09-17,2026-09-17,123,Low,True,31,465000
+LIC-0439,Vendor_B,SimEngine_Pro,Node-Locked,Physical Design,EMEA,15,39.6,55.9,12000,180000,2025-09-27,2027-09-27,498,Low,True,8,96000
+LIC-0440,Vendor_C,CoverageAnalyzer,Node-Locked,Analog,Americas,50,29.6,53.0,25000,1250000,2025-07-08,2026-07-08,52,High,True,34,850000
+LIC-0441,Vendor_A,LayoutEditor,Node-Locked,Analog,EMEA,10,66.3,95.8,30000,300000,2025-08-17,2027-08-17,457,Low,False,2,60000
+LIC-0442,Vendor_C,VerifyTool_A,Floating,Physical Design,Americas,25,1.9,30.5,30000,750000,2024-12-15,2026-12-15,212,Low,True,23,690000
+LIC-0443,Vendor_B,SimEngine_X,Floating,Mixed-Signal,APAC,10,32.8,39.1,8000,80000,2025-07-26,2027-07-26,435,Low,True,5,40000
+LIC-0444,Vendor_A,LayoutEditor,Floating,Analog,EMEA,5,15.8,38.1,15000,75000,2025-07-22,2026-07-22,66,Medium,True,3,45000
+LIC-0445,Vendor_B,TimingAnalyzer,Node-Locked,ASIC Design,Americas,50,72.6,91.6,12000,600000,2024-07-21,2026-07-21,65,Medium,False,12,144000
+LIC-0446,Vendor_A,LayoutEditor,Floating,Analog,Americas,20,47.3,62.0,30000,600000,2025-04-01,2026-04-01,-46,Expired,False,9,270000
+LIC-0447,Vendor_A,LayoutEditor,Node-Locked,Verification,Americas,20,36.4,62.1,30000,600000,2025-02-04,2026-02-04,-102,Expired,True,11,330000
+LIC-0448,Vendor_C,VerifyTool_B,Floating,Physical Design,EMEA,50,19.5,26.4,12000,600000,2024-09-07,2025-09-07,-252,Expired,True,39,468000
+LIC-0449,Vendor_B,SimEngine_X,Floating,DFT,EMEA,10,47.4,56.4,15000,150000,2026-02-10,2028-02-10,634,Low,False,4,60000
+LIC-0450,Vendor_B,SimEngine_Pro,Node-Locked,ASIC Design,APAC,25,15.5,21.8,30000,750000,2024-05-26,2026-05-26,9,Critical,True,20,600000
+LIC-0451,Vendor_B,WaveformViewer,Floating,ASIC Design,Americas,10,45.1,74.0,25000,250000,2025-12-08,2026-12-08,205,Low,False,4,100000
+LIC-0452,Vendor_B,TimingAnalyzer,Floating,ASIC Design,EMEA,10,71.6,93.2,15000,150000,2025-02-11,2027-02-11,270,Low,False,1,15000
+LIC-0453,Vendor_A,SchematicCapture,Floating,Mixed-Signal,Americas,50,70.4,84.1,12000,600000,2024-05-28,2025-05-28,-354,Expired,False,13,156000
+LIC-0454,Vendor_A,LayoutEditor,Floating,DFT,APAC,25,22.5,45.6,8000,200000,2024-09-04,2026-09-04,110,Low,True,18,144000
+LIC-0455,Vendor_C,FormalChecker,Floating,DFT,APAC,50,68.2,78.0,25000,1250000,2025-11-23,2026-11-23,190,Low,False,14,350000
+LIC-0456,Vendor_A,DesignTool_Pro,Floating,Analog,APAC,50,7.5,31.8,30000,1500000,2024-12-08,2025-12-08,-160,Expired,True,45,1350000
+LIC-0457,Vendor_A,SchematicCapture,Node-Locked,Analog,APAC,10,33.0,38.6,30000,300000,2025-03-13,2026-03-13,-65,Expired,True,5,150000
+LIC-0458,Vendor_A,DesignTool_Pro,Node-Locked,ASIC Design,APAC,25,23.4,30.2,12000,300000,2025-05-27,2027-05-27,375,Low,True,18,216000
+LIC-0459,Vendor_B,TimingAnalyzer,Floating,Analog,EMEA,5,5.6,20.3,8000,40000,2024-08-17,2025-08-17,-273,Expired,True,3,24000
+LIC-0460,Vendor_C,VerifyTool_A,Floating,Analog,Americas,5,55.6,69.5,25000,125000,2025-10-30,2027-10-30,531,Low,False,1,25000
+LIC-0461,Vendor_C,CoverageAnalyzer,Floating,Mixed-Signal,APAC,20,63.4,77.9,30000,600000,2026-01-15,2028-01-15,608,Low,False,6,180000
+LIC-0462,Vendor_A,DesignTool_Lite,Floating,Verification,Americas,25,61.1,73.5,30000,750000,2025-09-21,2027-09-21,492,Low,False,8,240000
+LIC-0463,Vendor_C,CoverageAnalyzer,Node-Locked,ASIC Design,Americas,10,46.3,54.4,8000,80000,2024-07-09,2026-07-09,53,High,False,4,32000
+LIC-0464,Vendor_C,VerifyTool_A,Node-Locked,Physical Design,APAC,50,45.7,59.3,20000,1000000,2024-09-09,2025-09-09,-250,Expired,False,26,520000
+LIC-0465,Vendor_A,DesignTool_Lite,Node-Locked,Verification,Americas,10,76.8,84.7,30000,300000,2024-07-15,2025-07-15,-306,Expired,False,1,30000
+LIC-0466,Vendor_C,FormalChecker,Floating,Analog,Americas,50,30.9,37.6,8000,400000,2025-07-28,2027-07-28,437,Low,True,33,264000
+LIC-0467,Vendor_B,WaveformViewer,Floating,Verification,Americas,5,47.5,59.6,8000,40000,2025-08-01,2027-08-01,441,Low,False,1,8000
+LIC-0468,Vendor_B,TimingAnalyzer,Floating,Physical Design,Americas,50,25.8,45.4,25000,1250000,2024-07-15,2026-07-15,59,High,True,36,900000
+LIC-0469,Vendor_B,TimingAnalyzer,Floating,Verification,APAC,10,61.8,84.6,30000,300000,2024-11-26,2026-11-26,193,Low,False,2,60000
+LIC-0470,Vendor_B,SimEngine_Pro,Floating,Analog,Americas,20,60.1,76.7,15000,300000,2025-04-09,2027-04-09,327,Low,False,6,90000
+LIC-0471,Vendor_C,VerifyTool_A,Floating,Verification,Americas,15,45.1,71.6,12000,180000,2024-08-13,2025-08-13,-277,Expired,False,7,84000
+LIC-0472,Vendor_B,SimEngine_X,Node-Locked,Analog,APAC,25,45.9,66.7,25000,625000,2024-07-03,2026-07-03,47,High,False,12,300000
+LIC-0473,Vendor_C,VerifyTool_B,Floating,ASIC Design,Americas,25,38.7,55.5,12000,300000,2025-02-06,2027-02-06,265,Low,True,14,168000
+LIC-0474,Vendor_A,LayoutEditor,Floating,Verification,EMEA,5,46.1,61.0,25000,125000,2026-02-05,2027-02-05,264,Low,False,1,25000
+LIC-0475,Vendor_C,VerifyTool_B,Floating,Mixed-Signal,APAC,10,9.9,29.1,25000,250000,2025-09-19,2027-09-19,490,Low,True,8,200000
+LIC-0476,Vendor_B,SimEngine_X,Floating,Verification,EMEA,15,47.6,61.8,8000,120000,2025-07-19,2027-07-19,428,Low,False,6,48000
+LIC-0477,Vendor_B,TimingAnalyzer,Floating,DFT,APAC,50,75.1,88.2,30000,1500000,2024-08-31,2026-08-31,106,Low,False,11,330000
+LIC-0478,Vendor_C,CoverageAnalyzer,Floating,Mixed-Signal,Americas,20,28.5,49.8,15000,300000,2024-06-24,2025-06-24,-327,Expired,True,13,195000
+LIC-0479,Vendor_C,CoverageAnalyzer,Floating,DFT,APAC,15,44.9,70.3,15000,225000,2024-10-05,2026-10-05,141,Low,False,7,105000
+LIC-0480,Vendor_C,VerifyTool_A,Floating,Mixed-Signal,APAC,10,34.8,41.7,30000,300000,2025-05-04,2026-05-04,-13,Expired,True,5,150000
+LIC-0481,Vendor_A,DesignTool_Lite,Floating,Verification,EMEA,5,27.4,48.9,20000,100000,2025-03-14,2026-03-14,-64,Expired,True,2,40000
+LIC-0482,Vendor_B,TimingAnalyzer,Floating,DFT,APAC,50,58.9,84.7,8000,400000,2025-06-11,2026-06-11,25,Critical,False,19,152000
+LIC-0483,Vendor_A,DesignTool_Lite,Floating,Verification,Americas,25,29.7,38.4,12000,300000,2025-05-27,2026-05-27,10,Critical,True,16,192000
+LIC-0484,Vendor_C,FormalChecker,Floating,Mixed-Signal,Americas,50,57.8,81.0,15000,750000,2025-11-20,2026-11-20,187,Low,False,20,300000
+LIC-0485,Vendor_B,TimingAnalyzer,Floating,DFT,APAC,20,42.5,62.5,25000,500000,2025-08-13,2027-08-13,453,Low,False,10,250000
+LIC-0486,Vendor_A,LayoutEditor,Floating,DFT,Americas,10,13.0,27.5,12000,120000,2025-10-27,2026-10-27,163,Low,True,7,84000
+LIC-0487,Vendor_A,SchematicCapture,Floating,Verification,Americas,20,24.0,51.5,25000,500000,2026-01-07,2027-01-07,235,Low,True,14,350000
+LIC-0488,Vendor_A,SchematicCapture,Node-Locked,Analog,APAC,25,42.7,68.4,30000,750000,2024-12-01,2026-12-01,198,Low,False,13,390000
+LIC-0489,Vendor_B,SimEngine_X,Floating,Analog,Americas,20,33.5,58.2,20000,400000,2025-02-22,2026-02-22,-84,Expired,True,12,240000
+LIC-0490,Vendor_B,SimEngine_Pro,Node-Locked,Physical Design,EMEA,5,33.0,45.1,25000,125000,2024-12-24,2026-12-24,221,Low,True,2,50000
+LIC-0491,Vendor_A,DesignTool_Pro,Node-Locked,Analog,Americas,25,39.0,57.1,25000,625000,2026-02-08,2028-02-08,632,Low,True,14,350000
+LIC-0492,Vendor_C,VerifyTool_B,Floating,Analog,EMEA,5,25.8,34.7,30000,150000,2024-06-26,2026-06-26,40,High,True,2,60000
+LIC-0493,Vendor_B,TimingAnalyzer,Floating,Mixed-Signal,EMEA,50,19.3,34.2,12000,600000,2024-12-19,2026-12-19,216,Low,True,39,468000
+LIC-0494,Vendor_A,LayoutEditor,Floating,Mixed-Signal,Americas,15,47.8,67.2,30000,450000,2025-01-04,2026-01-04,-133,Expired,False,6,180000
+LIC-0495,Vendor_C,VerifyTool_A,Floating,Analog,APAC,50,1.2,29.9,8000,400000,2025-07-11,2027-07-11,420,Low,True,48,384000
+LIC-0496,Vendor_B,SimEngine_X,Node-Locked,Verification,EMEA,5,30.2,55.3,12000,60000,2024-10-21,2026-10-21,157,Low,True,2,24000
+LIC-0497,Vendor_A,DesignTool_Pro,Floating,Physical Design,APAC,25,46.5,52.4,20000,500000,2025-01-01,2027-01-01,229,Low,False,12,240000
+LIC-0498,Vendor_C,VerifyTool_A,Floating,Verification,Americas,5,68.5,78.5,30000,150000,2024-09-03,2026-09-03,109,Low,False,0,0
+LIC-0499,Vendor_A,DesignTool_Pro,Floating,Mixed-Signal,Americas,10,34.6,55.0,30000,300000,2026-01-10,2028-01-10,603,Low,True,5,150000
+LIC-0500,Vendor_A,DesignTool_Pro,Node-Locked,Verification,APAC,20,75.3,89.1,20000,400000,2024-12-27,2025-12-27,-141,Expired,False,3,60000
+LIC-0501,Vendor_C,VerifyTool_A,Floating,Analog,Americas,5,19.1,37.8,30000,150000,2024-07-23,2026-07-23,67,Medium,True,3,90000
+LIC-0502,Vendor_B,WaveformViewer,Node-Locked,Verification,Americas,20,48.9,77.1,25000,500000,2026-02-11,2028-02-11,635,Low,False,9,225000
+LIC-0503,Vendor_A,SchematicCapture,Floating,Mixed-Signal,APAC,25,35.8,48.2,8000,200000,2024-09-08,2026-09-08,114,Low,True,15,120000
+LIC-0504,Vendor_C,CoverageAnalyzer,Node-Locked,Analog,EMEA,25,15.6,32.7,12000,300000,2025-03-05,2027-03-05,292,Low,True,20,240000
+LIC-0505,Vendor_C,FormalChecker,Floating,Mixed-Signal,APAC,15,58.2,64.9,30000,450000,2025-07-05,2026-07-05,49,High,False,5,150000
+LIC-0506,Vendor_B,TimingAnalyzer,Floating,Physical Design,Americas,50,37.5,63.3,12000,600000,2025-04-27,2026-04-27,-20,Expired,True,30,360000
+LIC-0507,Vendor_B,WaveformViewer,Node-Locked,ASIC Design,Americas,20,15.3,28.1,12000,240000,2024-07-08,2026-07-08,52,High,True,15,180000
+LIC-0508,Vendor_A,DesignTool_Lite,Floating,DFT,Americas,50,50.4,61.5,15000,750000,2025-07-19,2026-07-19,63,Medium,False,23,345000
+LIC-0509,Vendor_A,DesignTool_Lite,Floating,Mixed-Signal,EMEA,5,10.8,18.8,8000,40000,2024-09-29,2025-09-29,-230,Expired,True,3,24000
+LIC-0510,Vendor_C,VerifyTool_A,Floating,DFT,EMEA,20,55.3,82.8,25000,500000,2025-05-10,2027-05-10,358,Low,False,7,175000
+LIC-0511,Vendor_A,LayoutEditor,Node-Locked,DFT,APAC,10,22.9,29.3,20000,200000,2024-10-14,2025-10-14,-215,Expired,True,6,120000
+LIC-0512,Vendor_C,CoverageAnalyzer,Node-Locked,DFT,Americas,20,86.9,100.0,30000,600000,2024-09-03,2026-09-03,109,Low,False,1,30000
+LIC-0513,Vendor_B,SimEngine_X,Floating,ASIC Design,Americas,25,26.8,34.3,15000,375000,2024-05-29,2026-05-29,12,Critical,True,17,255000
+LIC-0514,Vendor_A,LayoutEditor,Floating,Verification,EMEA,25,37.5,51.1,12000,300000,2024-09-23,2026-09-23,129,Low,True,14,168000
+LIC-0515,Vendor_A,SchematicCapture,Floating,Analog,EMEA,20,47.9,59.9,12000,240000,2024-07-10,2025-07-10,-311,Expired,False,9,108000
+LIC-0516,Vendor_C,VerifyTool_B,Floating,ASIC Design,Americas,10,27.1,46.0,20000,200000,2025-07-30,2026-07-30,74,Medium,True,6,120000
+LIC-0517,Vendor_C,VerifyTool_B,Floating,DFT,APAC,20,63.2,71.6,30000,600000,2024-09-04,2026-09-04,110,Low,False,6,180000
+LIC-0518,Vendor_B,WaveformViewer,Node-Locked,Physical Design,Americas,5,42.4,57.4,30000,150000,2025-09-01,2026-09-01,107,Low,False,1,30000
+LIC-0519,Vendor_A,LayoutEditor,Floating,DFT,Americas,50,7.2,20.6,15000,750000,2025-02-12,2027-02-12,271,Low,True,45,675000
+LIC-0520,Vendor_B,SimEngine_X,Floating,DFT,APAC,50,12.6,41.7,12000,600000,2024-07-05,2025-07-05,-316,Expired,True,42,504000

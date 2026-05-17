@@ -1,0 +1,20 @@
+[2026-05-16 02:03:43] EXTRACT: Reading raw license data
+[2026-05-16 02:03:43]   Loaded 520 rows, 18 columns
+[2026-05-16 02:03:43] VALIDATE: Running data quality checks
+[2026-05-16 02:03:43]   [✓] No nulls found
+[2026-05-16 02:03:43]   [✓] Duplicate license_ids: 0
+[2026-05-16 02:03:43]   [✓] Invalid utilization values: 0
+[2026-05-16 02:03:43] TRANSFORM: Applying business logic
+[2026-05-16 02:03:43]   [✓] Utilization bands assigned
+[2026-05-16 02:03:43]   [✓] Renewal urgency labels assigned
+[2026-05-16 02:03:43]   [✓] Optimization priority scored
+[2026-05-16 02:03:43] LOAD: Writing to SQLite
+[2026-05-16 02:03:43]   [✓] licenses_clean table loaded (520 rows)
+[2026-05-16 02:03:43]   [✓] v_renewal_risk_summary view created
+[2026-05-16 02:03:43] 
+── ETL Output Summary ───────────────────────────────
+[2026-05-16 02:03:43]   Records processed : 520
+[2026-05-16 02:03:43]   Urgent renewals   : 181
+[2026-05-16 02:03:43]   Over-licensed     : 275
+[2026-05-16 02:03:43]   Potential savings : $111,937,000
+[2026-05-16 02:03:43]   ETL status        : SUCCESS
