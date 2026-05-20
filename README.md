@@ -118,5 +118,5 @@ This project was inspired by real-world enterprise license management work but r
 
 ## Author
 
-**Keerthi Housure Srinivas** — Data & BI Analyst  
+**Keerthi Housure Srinivas** 
 [linkedin.com/in/srinivaskeerthi](https://linkedin.com/in/srinivaskeerthi) | [keerthi-hs.github.io](https://keerthi-hs.github.io)
